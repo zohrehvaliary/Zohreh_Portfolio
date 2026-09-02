@@ -127,8 +127,9 @@ body {
 
 .large-title {
   font-family: var(--font-serif);
-  font-size: clamp(3.5rem, 6vw, 6rem);
-  line-height: 1.083;
+  font-size: 96px;
+  line-height: 104px;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: rgba(0, 0, 0, 0.85);
   margin-bottom: 40px;
@@ -1317,9 +1318,7 @@ body {
   background: #eee;
   overflow: hidden;
 }
-.currents-page {
-  padding-bottom: 60px;
-}
+
 
 .project-navigation {
   display: flex;
@@ -1486,12 +1485,20 @@ body {
   margin-top: 24px;
 }
 
-.cannabis-platform-row-2-image,
-.hemp-platform-row-2-image {
+.cannabis-platform-row-2-image {
   width: 628px;
   max-width: 100%;
   height: 419px;
   background: #eee;
+  overflow: hidden;
+}
+
+.hemp-platform-row-2-image {
+  width: 628px;
+  max-width: 100%;
+  height: 476px;
+  background: #eee;
+  overflow: hidden;
 }
 
 .mobile-marketplace-image {
@@ -1551,209 +1558,1874 @@ body {
   object-fit: cover;
   display: block;
 }
+.cannabis-platform-row-1 img,
+.cannabis-platform-row-2-image img,
+.mobile-marketplace-image img,
+.print-row-top-left img,
+.print-row-top-right img,
+.print-row-bottom img,
+.hemp-platform-row-1 img,
+.hemp-platform-row-2-image img,
+.adapting-print-left img,
+.adapting-print-right img,
+.adapting-print-row-bottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* REVAYAT */
 
-/* RESPONSIVE */
+/* HERO */
+.revayat-hero {
+  display: grid;
+  grid-template-columns: repeat(3, 411px);
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 70px;
+}
 
-@media (max-width: 900px) {
-  .header {
-    padding: 20px 24px;
-  }
-  .logo {
-    font-size: 16px;
-    line-height: 20px;
-    white-space: nowrap;
-  }
+.revayat-hero-image {
+  width: 411px;
+  height: 581px;
+  overflow: hidden;
+}
 
-  .page-content {
-    padding: 84px 24px 40px;
-  }
-  .nav-links {
-    gap: 14px;
-  }
-  .nav-links .mobile-hide {
-    display: none;
-  }
-  
-  .nav-links a {
-    font-size: 11px;
-  }
-  
-  .large-title {
-    font-size: clamp(42px, 11vw, 58px);
-    line-height: 0.98;
-  }
-  
-  .hero-subline {
-    font-size: 18px;
-    line-height: 28px;
-    max-width: 100%;
-  }
-  .hero {
-    margin-bottom: 36px;
-  }
+/* INTRO + SECTION SPACING */
+.revayat-research-intro {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
 
-  .work-grid {
-    grid-template-columns: 1fr;
-    column-gap: 0;
-    row-gap: 32px;
-    margin-bottom: 32px;
-  }
+.revayat-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
 
-  .section-heading {
-    margin-bottom: 12px;
-  }
+/* DESIGNING THE CAMPAIGN */
+.revayat-campaign-grid {
+  display: grid;
+  grid-template-columns: 737px 522px;
+  gap: 21px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
 
-  .work-info h3 {
-    font-size: 28px;
-    line-height: 34px;
-  }
-  
-  .category {
-    font-size: 11px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-  }
-  
-  .year {
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 7px;
-  }
+.revayat-campaign-large {
+  width: 737px;
+  height: 620px;
+  overflow: hidden;
+}
 
-  .image-wrapper {
-    margin-bottom: 10px;
-  }
-  .section-heading {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 12px;
-  }
-  
-  .text-link {
-    font-size: 14px;
-    line-height: 22px;
-  }
+.revayat-campaign-small {
+  width: 522px;
+  height: 620px;
+  overflow: hidden;
+}
 
-  .capabilities-section {
-    margin-top: 50px;
-    margin-bottom: 72px;
-  }
-  
-  .capabilities-heading {
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 16px;
-  }
-  
-  .capabilities-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 24px;
-    row-gap: 28px;
-    padding-top: 16px;
-  }
-  
-  .capability-title {
-    font-size: 15px;
-    line-height: 21px;
-    margin-bottom: 6px;
-  }
-  
-  .capability-description {
-    font-size: 11px;
-    line-height: 17px;
-    letter-spacing: 0.02em;
-  }
-  .contact-cta {
-    margin-top: 72px;
-  }
-  
-  .contact-heading {
-    font-size: 38px;
-    line-height: 44px;
-  }
-  
-  .contact-link {
-    margin-top: 24px;
-    font-size: 14px;
-    line-height: 22px;
-    text-decoration: none;
-  }
-  .all-work-title {
-    font-size: 36px;
-    line-height: 42px;
-  }
-  
-  .all-work-intro {
-    font-size: 16px;
-    line-height: 24px;
-    white-space: normal;
-    margin-top: 20px;
-  }
-  
-  .all-work-grid {
-    grid-template-columns: 1fr;
-    row-gap: 20px;
-    margin-top: 32px;
-  }
-  
-  .all-work-image {
-    margin-bottom: 10px;
-  }
-  
-  .all-work-info h3 {
-    font-size: 22px;
-    line-height: 28px;
-  }
-  
-  .all-work-category {
-    display: block;
-    margin-top: 5px;
-    font-size: 10px;
-    line-height: 16px;
-    letter-spacing: 0.04em;
-  }
-  
-  .all-work-year {
-    font-size: 11px;
-    line-height: 16px;
-    margin-top: 5px;
-  }
-  
+/* BUILDING THE VISUAL LANGUAGE */
+.revayat-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 519px);
+  gap: 24px;
+  width: 1062px;
+  max-width: 100%;
+  margin-top: 24px;
+}
 
-  .span-8,
-  .span-4,
-  .col-7,
-  .col-5,
-  .col-8,
-  .col-4,
-  .col-6 {
-    grid-column: span 12;
-  }
+.revayat-visual-image {
+  width: 519px;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* BUILDING THE IDENTITY */
+.revayat-identity-grid {
+  display: grid;
+  grid-template-columns: 520px 736px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.revayat-identity-left {
+  width: 520px;
+  height: 605px;
+  overflow: hidden;
+}
+
+.revayat-identity-right {
+  width: 736px;
+  height: 606px;
+  overflow: hidden;
+}
+
+/* DESIGNING FOR PARTICIPATION */
+.revayat-participation-grid {
+  display: grid;
+  grid-template-columns: 626px 630px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.revayat-participation-left {
+  width: 626px;
+  height: 570px;
+  overflow: hidden;
+}
+
+.revayat-participation-right {
+  width: 630px;
+  height: 570px;
+  overflow: hidden;
+}
+
+/* CAMPAIGN IN CONTEXT */
+.revayat-context-grid {
+  display: grid;
+  grid-template-columns: 738px 519px;
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.revayat-context-left {
+  width: 738px;
+  height: 357px;
+  overflow: hidden;
+}
+
+.revayat-context-right {
+  width: 519px;
+  height: 357px;
+  overflow: hidden;
+}
+
+/* ALL REVAYAT IMAGES */
+.revayat-hero-image img,
+.revayat-campaign-large img,
+.revayat-campaign-small img,
+.revayat-visual-image img,
+.revayat-identity-left img,
+.revayat-identity-right img,
+.revayat-participation-left img,
+.revayat-participation-right img,
+.revayat-context-left img,
+.revayat-context-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* WAR CHILDREN */
+
+/* HERO */
+.war-children-hero {
+  display: grid;
+  grid-template-columns: repeat(3, 411px);
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+.war-children-hero-image {
+  width: 411px;
+  height: 412px;
+  overflow: hidden;
+}
+
+/* INTRO */
+.war-intervention-intro {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+
+/* MAIN SECTIONS */
+.war-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
+
+/* SEQUENTIAL REVEAL */
+.war-sequence-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 518px);
+  gap: 24px;
+  width: 1060px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.war-sequence-card {
+  width: 518px;
+}
+
+.war-sequence-item {
+  width: 518px;
+  height: 732px;
+  overflow: hidden;
+}
+
+.war-sequence-label {
+  display: block;
+  margin-top: 10px;
+
+  font-family: var(--font-serif);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.war-wall-image {
+  width: 1280px;
+  height: 693px;
+  max-width: 100%;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+/* PORTRAIT SYSTEM */
+.war-portrait-system-image {
+  width: 1063px;
+  max-width: 100%;
+  height: 1644px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+/* FINAL POSTER */
+.war-final-poster-section {
+  margin-top: 40px;
+}
+
+/* EDITORIAL EXTENSION */
+.war-editorial-grid {
+  display: grid;
+  grid-template-columns: 737px 519px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.war-editorial-image-large {
+  width: 737px;
+  height: 469px;
+  overflow: hidden;
+}
+
+.war-editorial-image-small {
+  width: 519px;
+  height: 469px;
+  overflow: hidden;
+}
+
+/* ALL WAR CHILDREN IMAGES */
+.war-children-hero-image img,
+.war-sequence-item img,
+.war-wall-image img,
+.war-portrait-system-image img,
+.war-editorial-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* MISSION NORTH — HERO */
+
+.mn-hero {
+  display: grid;
+  grid-template-columns: 519px 737px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+.mn-hero-left,
+.mn-hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mn-hero-left-01,
+.mn-hero-left-02 {
+  width: 519px;
+  height: 196px;
+  overflow: hidden;
+}
+
+.mn-hero-left-03 {
+  width: 519px;
+  height: 279px;
+  overflow: hidden;
+}
+
+.mn-hero-right-01 {
+  width: 737px;
+  height: 310px;
+  overflow: hidden;
+}
+
+.mn-hero-right-02 {
+  width: 736px;
+  height: 386px;
+  overflow: hidden;
+}
+
+.mn-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mn-logo-row-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mn-logo-large {
+  width: 628px;
+  height: 444px;
+  overflow: hidden;
+}
+
+.mn-logo-row-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 410px);
+  gap: 24px;
+  width: 1278px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mn-logo-small {
+  width: 410px;
+  height: 158px;
+  overflow: hidden;
+}
+
+.mn-logo-large img,
+.mn-logo-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* MISSION NORTH — SECTION SPACING */
+
+.mn-identity-intro {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+
+.mn-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
+.mn-subsection-title {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 0 20px;
+}
+.mn-colour-subsection {
+  margin-top: 53px;
+}
+
+.mn-typography-subsection {
+  margin-top: 53px;
+}
+.mn-colour-image {
+  width: 1280px;
+  max-width: 100%;
+  height: 361px;
+  overflow: hidden;
+}
+
+.mn-typography-image {
+  width: 1280px;
+  max-width: 100%;
+  height: 399px;
+  overflow: hidden;
+}
+
+.mn-colour-image img,
+.mn-typography-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mn-brand-row-1,
+.mn-brand-row-2 {
+  display: grid;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mn-brand-row-1 {
+  grid-template-columns: 845px 411px;
+}
+
+.mn-brand-row-2 {
+  grid-template-columns: 519px 737px;
+}
+
+.mn-brand-row-1-large {
+  width: 845px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.mn-brand-row-1-small {
+  width: 411px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.mn-brand-row-2-small {
+  width: 519px;
+  height: 374px;
+  overflow: hidden;
+}
+
+.mn-brand-row-2-large {
+  width: 737px;
+  height: 374px;
+  overflow: hidden;
+}
+
+.mn-brand-row-1 img,
+.mn-brand-row-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mn-digital-grid {
+  display: grid;
+  grid-template-columns: 845px 411px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mn-digital-large {
+  width: 845px;
+  height: 781px;
+  overflow: hidden;
+}
+
+.mn-digital-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mn-digital-small-top {
+  width: 411px;
+  height: 295px;
+  overflow: hidden;
+}
+
+.mn-digital-small-bottom {
+  width: 411px;
+  height: 462px;
+  overflow: hidden;
+}
+
+.mn-digital-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mission-north-page .project-intro {
+  max-width: 730px;
+}
+.mn-brand-row-1-small video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mn-brand-row-1-large,
+.mn-brand-row-1-small {
+  height: 692px;
+}
+/* UNUSUAL VENTURES — HERO */
+
+.uv-hero {
+  display: grid;
+  grid-template-columns: 845px 411px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+.uv-hero-large {
+  width: 845px;
+  height: 662px;
+  overflow: hidden;
+}
+
+.uv-hero-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.uv-hero-small-top {
+  width: 411px;
+  height: 407px;
+  overflow: hidden;
+}
+
+.uv-hero-small-bottom {
+  width: 411px;
+  height: 231px;
+  overflow: hidden;
+}
+
+.uv-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* UNUSUAL VENTURES — SECTION SPACING */
+
+.uv-visual-language-intro {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+
+.uv-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
+.uv-digital-row-1 {
+  width: 1280px;
+  max-width: 100%;
+  height: 483px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.uv-digital-row-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.uv-digital-half {
+  width: 628px;
+  height: 296px;
+  overflow: hidden;
+}
+
+.uv-digital-row-3 {
+  width: 1280px;
+  max-width: 100%;
+  height: 556px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.uv-digital-row-1 img,
+.uv-digital-half img,
+.uv-digital-row-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-illustration-large {
+  width: 1280px;
+  max-width: 100%;
+  height: 483px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.uv-illustration-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 411px);
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.uv-illustration-small {
+  width: 411px;
+  height: 383px;
+  overflow: hidden;
+}
+
+.uv-illustration-large img,
+.uv-illustration-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-team-subsection {
+  margin-top: 53px;
+}
+
+.uv-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 411px);
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.uv-team-image {
+  width: 411px;
+  height: 383px;
+  overflow: hidden;
+}
+
+.uv-team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-colour-subsection,
+.uv-type-subsection,
+.uv-type-use-subsection {
+  margin-top: 53px;
+}
+
+.uv-colour-image {
+  width: 1280px;
+  max-width: 100%;
+  height: 673px;
+  overflow: hidden;
+}
+
+.uv-type-image {
+  width: 1280px;
+  max-width: 100%;
+  height: 671px;
+  overflow: hidden;
+}
+
+.uv-type-use-image {
+  width: 1280px;
+  max-width: 100%;
+  height: 542px;
+  overflow: hidden;
+}
+
+.uv-colour-image img,
+.uv-type-image img,
+.uv-type-use-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-presentation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.uv-presentation-image {
+  width: 628px;
+  height: 370px;
+  overflow: hidden;
+}
+
+.uv-presentation-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-communications-01,
+.uv-communications-02,
+.uv-communications-03 {
+  width: 1280px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.uv-communications-01 {
+  height: 758px;
+  margin-top: 24px;
+}
+
+.uv-communications-02 {
+  height: 409px;
+  margin-top: 24px;
+}
+
+.uv-communications-03 {
+  height: 436px;
+  margin-top: 24px;
+}
+
+.uv-communications-01 img,
+.uv-communications-02 img,
+.uv-communications-03 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.project-page {
+  padding-bottom: 60px;
+}
+.uv-image-caption {
+  display: block;
+  margin-top: 10px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.uv-captioned-figure {
+  margin: 0;
+}
+
+.uv-digital-row-1 video,
+.uv-digital-half video {
+  width: calc(100% + 6px);
+  height: 100%;
+  margin-left: -6px;
+  object-fit: cover;
+  display: block;
+}
+.uv-hero-small-top video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.uv-visual-identity-disclaimer {
+  margin-top: 24px;
+}
+/* PLAYFUL WALKING */
+
+.walking-hero {
+  display: grid;
+  grid-template-columns: 737px 519px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+
+.walking-hero-large,
+.walking-hero-small {
+  height: 394px;
+  overflow: hidden;
+}
+
+.walking-hero-large img,
+.walking-hero-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.walking-editorial-language {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+.walking-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
+
+.walking-reading-image {
+  width: 1280px;
+  height: 635px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.walking-reading-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.walking-color-row {
+  display: grid;
+  grid-template-columns: repeat(2, 629px);
+  gap: 22px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+.walking-color-image {
+  width: 629px;
+  height: 428px;
+  overflow: hidden;
+}
+
+.walking-color-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.walking-color-legend {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.walking-color-key {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.walking-color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.walking-color-dot-blue {
+  background: #7CB6DA;
+}
+
+.walking-color-dot-coral {
+  background: #EC7C74;
+}
+
+.walking-color-dot-yellow {
+  background: #F0B85E;
+}
+.walking-art-direction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.walking-art-direction-image {
+  width: 628px;
+  height: 428px;
+  overflow: hidden;
+}
+
+.walking-art-direction-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.walking-architecture-row {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.walking-architecture-half {
+  width: 628px;
+  height: 428px;
+  overflow: hidden;
+}
+
+.walking-architecture-full {
+  width: 1280px;
+  height: 612px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.walking-architecture-half img,
+.walking-architecture-full img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.walking-closing {
+  width: 1280px;
+  height: 612px;
+  max-width: 100%;
+  margin-top: 130px;
+  overflow: hidden;
+}
+
+.walking-closing img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* MAPPING MY EDMONTON */
+
+.mapping-hero {
+  display: grid;
+  grid-template-columns: 845px 411px;
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 53px;
+}
+
+.mapping-hero-large {
+  width: 845px;
+  height: 627px;
+  overflow: hidden;
+}
+
+.mapping-hero-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mapping-hero-small-top {
+  width: 411px;
+  height: 301px;
+  overflow: hidden;
+}
+
+.mapping-hero-small-bottom {
+  width: 411px;
+  height: 302px;
+  overflow: hidden;
+}
+
+.mapping-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.mapping-section {
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 75px;
+}
+
+.mapping-personal-geography {
+  margin-top: 53px;
+}
+
+.mapping-personal-paragraph {
+  margin-top: 16px;
+}
+
+.mapping-legend {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 32px;
+}
+
+.mapping-legend-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-right: 16px;
+}
+
+.mapping-legend-item:not(:first-child) {
+  padding-left: 16px;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mapping-legend-item img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.mapping-legend-item h3 {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 0 2px;
+}
+
+.mapping-legend-item p {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.78);
+  margin: 0;
+}
+.mapping-legend-item-shoe {
+  gap: 12px;
+}
+.mapping-seasons-row {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mapping-season-figure {
+  width: 628px;
+  margin: 0;
+}
+
+.mapping-season-image {
+  width: 628px;
+  height: 494px;
+  overflow: hidden;
+}
+
+.mapping-season-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mapping-image-caption {
+  display: block;
+  margin-top: 8px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+.mapping-shoes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 628px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mapping-shoes-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapping-shoes-label {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 0 20px;
+}
+
+.mapping-shoe-row {
+  width: 628px;
+  margin: 0;
+}
+
+.mapping-shoe-row + .mapping-shoe-row {
+  margin-top: 10px;
+}
+
+.mapping-shoes-image {
+  width: 628px;
+  height: 233px;
+  overflow: hidden;
+}
+
+.mapping-shoes-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mapping-shoe-captions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3px;
+
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+.mapping-landmarks-top {
+  display: grid;
+  grid-template-columns: repeat(2, 632px);
+  gap: 24px;
+  width: 1280px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.mapping-landmark-top-figure {
+  width: 628px;
+  margin: 0;
+}
+
+.mapping-landmark-top-image {
+  width: 628px;
+  height: 396px;
+  overflow: hidden;
+}
+
+.mapping-landmarks-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 411px);
+  gap: 24px;
+  width: 1281px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.mapping-landmark-bottom-figure {
+  width: 411px;
+  margin: 0;
+}
+
+.mapping-landmark-bottom-image {
+  width: 411px;
+  height: 272px;
+  overflow: hidden;
+}
+
+.mapping-landmark-top-image img,
+.mapping-landmark-bottom-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mapping-landmark-caption {
+  margin-top: 3px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+.mapping-closing {
+  width: 1280px;
+  height: 864px;
+  max-width: 100%;
+  margin-top: 130px;
+  overflow: hidden;
+}
+
+.mapping-closing img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.contact-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 150px;
+}
+
+.contact-page-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0;
+}
+
+.contact-page-heading {
+  font-family: var(--font-serif);
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0;
+}
+
+.contact-page-intro {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #505050;
+  max-width: 679px;
+  margin: 40px 0 0;
+}
+.contact-actions {
+  margin-top: 64px;
+}
+
+.contact-email {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
+
+.contact-secondary-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.contact-secondary-links a {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+
+.contact-secondary-links a:hover {
+  text-decoration: underline;
+}
+/* =========================================================
+   RESPONSIVE
+   TABLET / NARROW: ≤ 900px
+   PHONE: ≤ 480px
+   ========================================================= */
 
 
-  .footer {
-    min-height: 72px;
-    padding: 0 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+/* =========================================================
+   TABLET / NARROW
+   ========================================================= */
+
+   @media (max-width: 900px) {
+
+    /* ---------- HEADER ---------- */
+  
+    .header {
+      padding: 20px 24px;
+    }
+  
+    .logo {
+      font-size: 16px;
+      line-height: 20px;
+      white-space: nowrap;
+    }
+  
+    .nav-links {
+      gap: 14px;
+    }
+  
+    .nav-links .mobile-hide {
+      display: none;
+    }
+  
+    .nav-links a {
+      font-size: 11px;
+      line-height: 20px;
+      letter-spacing: 0.10em;
+    }
+  
+  
+    /* ---------- PAGE LAYOUT ---------- */
+  
+    .page-content {
+      padding: 84px 24px 40px;
+    }
+  
+  
+    /* ---------- HOME HERO ---------- */
+  
+    .large-title {
+      font-size: 58px;
+      line-height: 60px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+  
+    .hero-subline {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 100%;
+    }
+  
+    .hero {
+      margin-bottom: 36px;
+    }
+  
+  
+    /* ---------- SELECTED WORK ---------- */
+  
+    .work-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 16px;
+      row-gap: 28px;
+      margin-bottom: 32px;
+    }
+  
+    .section-heading {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .image-wrapper {
+      margin-bottom: 10px;
+    }
+  
+    .work-info h3 {
+      font-size: 28px;
+      line-height: 34px;
+    }
+  
+    .category,
+    .year {
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.04em;
+    }
+  
+    .category {
+      margin-top: 4px;
+    }
+  
+    .year {
+      margin-top: 6px;
+    }
+  
+    .text-link {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+  
+    /* ---------- CAPABILITIES ---------- */
+  
+    .capabilities-section {
+      margin-top: 50px;
+      margin-bottom: 72px;
+    }
+  
+    .capabilities-heading {
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 16px;
+    }
+  
+    .capabilities-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 24px;
+      row-gap: 28px;
+      padding-top: 16px;
+    }
+  
+    .capability-title {
+      font-size: 15px;
+      line-height: 21px;
+      margin-bottom: 6px;
+    }
+  
+    .capability-description {
+      font-size: 11px;
+      line-height: 17px;
+      letter-spacing: 0.02em;
+    }
+  
+  
+    /* ---------- HOME CONTACT CTA ---------- */
+  
+    .contact-cta {
+      margin-top: 72px;
+    }
+  
+    .contact-heading {
+      font-size: 38px;
+      line-height: 44px;
+    }
+  
+    .contact-link {
+      margin-top: 24px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+  
+    /* ---------- PAGE TITLES ---------- */
+  
+    .all-work-title,
+    .about-page .large-title,
+    .contact-page-heading {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  
+    .all-work-intro,
+    .about-page .bio-text,
+    .contact-page-intro {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+  
+    /* ---------- ALL WORK ---------- */
+  
+    .all-work-intro {
+      white-space: normal;
+      margin-top: 20px;
+    }
+  
+    .all-work-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 16px;
+      row-gap: 24px;
+      margin-top: 32px;
+    }
+  
+    .all-work-image {
+      margin-bottom: 10px;
+    }
+  
+    .all-work-info h3 {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  
+    .all-work-category,
+    .all-work-year {
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.04em;
+    }
+  
+    .all-work-category {
+      margin-top: 4px;
+    }
+  
+    .all-work-year {
+      margin-top: 4px;
+    }
+  
+  
+    /* ---------- EDITORIAL GRID ---------- */
+  
+    .span-8,
+    .span-4,
+    .col-7,
+    .col-5,
+    .col-8,
+    .col-4,
+    .col-6 {
+      grid-column: span 12;
+    }
+  
+  
+    /* ---------- PROJECT HEADER ---------- */
+  
+    .project-header-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  
+    .project-title {
+      font-size: 40px;
+      line-height: 46px;
+      margin-bottom: 24px;
+    }
+  
+    .project-intro {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 100%;
+    }
+  
+    .project-meta {
+      padding-top: 0;
+    }
+  
+    .project-meta .label {
+      font-size: 11px;
+      line-height: 20px;
+      letter-spacing: 0.10em;
+      margin-bottom: 2px;
+    }
+  
+    .project-meta p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .meta-item {
+      margin-bottom: 20px;
+    }
+  
+  
+    /* ---------- PROJECT SECTION TYPOGRAPHY ---------- */
+  
+    .project-section-title {
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 16px;
+    }
+  
+    .project-section-body,
+    .ecosystem-intro {
+      font-size: 16px;
+      line-height: 24px;
+      max-width: 100%;
+    }
+  
+    .ecosystem-heading,
+    .brand-standards-title,
+    .mn-subsection-title {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .project-navigation-label {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    .project-navigation-link {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+  
+    /* ---------- PROJECT SECTION WIDTHS ---------- */
+  
+    .healthgauge-section,
+    .currents-section,
+    .cannabis-section,
+    .revayat-section,
+    .war-section,
+    .mn-section,
+    .uv-section,
+    .walking-section,
+    .mapping-section {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .currents-scope {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+  
+    /* ---------- FOOTER ---------- */
+  
+    .footer {
+      min-height: 72px;
+      padding: 0 24px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+  
+    .footer-name {
+      font-size: 14px;
+      line-height: 20px;
+      white-space: nowrap;
+      transform: none;
+    }
+  
+    .footer-links {
+      font-size: 11px;
+      line-height: 20px;
+      letter-spacing: 0.10em;
+      white-space: nowrap;
+      transform: none;
+    }
   }
   
-  .footer-name {
-    font-size: 14px;
-    line-height: 20px;
-    white-space: nowrap;
-    transform: none;
-  }
   
-  .footer-links {
-    font-size: 11px;
-    line-height: 20px;
-    letter-spacing: 0.08em;
-    white-space: nowrap;
-    transform: none;
-  }
+  /* =========================================================
+     PHONE
+     ========================================================= */
   
+  @media (max-width: 480px) {
+  
+    /* ---------- HEADER ---------- */
+  
+    .header {
+      padding: 18px 20px;
+      align-items: center;
+    }
+  
+    .logo {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .nav-links {
+      gap: 12px;
+    }
+  
+    .nav-links a {
+      font-size: 10px;
+      line-height: 20px;
+      letter-spacing: 0.10em;
+    }
+  
+  
+    /* ---------- PAGE LAYOUT ---------- */
+  
+    .page-content {
+      padding: 84px 20px 40px;
+    }
+  
+  
+    /* ---------- HOME HERO ---------- */
+  
+    .large-title {
+      font-size: 48px;
+      line-height: 50px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 28px;
+    }
+  
+    .hero-subline {
+      font-size: 18px;
+      line-height: 28px;
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .hero {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 24px;
+    }
+  
+  
+    /* ---------- SELECTED WORK ---------- */
+  
+    .work-grid {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+      row-gap: 24px;
+    }
+  
+    .section-heading {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 14px;
+    }
+  
+    .image-wrapper {
+      margin-bottom: 8px;
+    }
+  
+    .work-info h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  
+    .category,
+    .year {
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: 0.04em;
+    }
+  
+    .category {
+      margin-top: 2px;
+    }
+  
+    .year {
+      margin-top: 5px;
+    }
+  
+  
+    /* ---------- PAGE TITLES ---------- */
+  
+    .all-work-title,
+    .about-page .large-title,
+    .contact-page-heading {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  
+  
+    /* ---------- ALL WORK ---------- */
+  
+    .all-work-grid {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+      row-gap: 24px;
+    }
+  
+    .all-work-info h3 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  
+    .all-work-category,
+    .all-work-year {
+      font-size: 11px;
+      line-height: 16px;
+    }
+  
+  
+    /* ---------- PROJECT HEADER ---------- */
+  
+    .project-title {
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 24px;
+    }
+  
+    .project-intro {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .project-meta .label {
+      font-size: 10px;
+      line-height: 20px;
+    }
+  
+    .project-meta p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+  
+    /* ---------- PROJECT SECTION TYPOGRAPHY ---------- */
+  
+    .project-section-title {
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 16px;
+    }
+  
+    .project-section-body,
+    .ecosystem-intro {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .ecosystem-heading,
+    .brand-standards-title,
+    .mn-subsection-title {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .project-navigation-label {
+      font-size: 11px;
+      line-height: 16px;
+    }
+  
+    .project-navigation-link {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+  
+    /* ---------- FOOTER ---------- */
+  
+    .footer {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .footer-name {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .footer-links {
+      font-size: 11px;
+      line-height: 20px;
+    }
   }
