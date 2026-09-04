@@ -1338,6 +1338,9 @@ body {
   text-align: right;
   align-items: flex-end;
 }
+.project-nav-title-short {
+  display: none;
+}
 
 /* Metadata */
 .project-navigation-label {
@@ -2502,6 +2505,7 @@ body {
   overflow: hidden;
 }
 
+
 .walking-architecture-half img,
 .walking-architecture-full img {
   width: 100%;
@@ -2513,9 +2517,10 @@ body {
   width: 1280px;
   height: 612px;
   max-width: 100%;
-  margin-top: 130px;
+  margin-top: 48px;
   overflow: hidden;
 }
+
 
 .walking-closing img {
   width: 100%;
@@ -3111,92 +3116,244 @@ body {
       grid-template-columns: 1fr;
       gap: 32px;
     }
-  
+    
     .project-title {
       font-size: 40px;
       line-height: 46px;
       margin-bottom: 24px;
     }
-  
+    
     .project-intro {
       font-size: 18px;
       line-height: 28px;
       max-width: 100%;
     }
-  
+    
     .project-meta {
       padding-top: 0;
     }
-  
+    
     .project-meta .label {
       font-size: 11px;
       line-height: 20px;
       letter-spacing: 0.10em;
       margin-bottom: 2px;
     }
-  
+    
     .project-meta p {
       font-size: 16px;
       line-height: 24px;
     }
-  
+    
     .meta-item {
       margin-bottom: 20px;
     }
+    /* HEALTHGAUGE ECOSYSTEM — TABLET */
+
+.ecosystem-item h3 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.ecosystem-item p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
   
   
-    /* ---------- PROJECT SECTION TYPOGRAPHY ---------- */
-  
-    .project-section-title {
-      font-size: 32px;
-      line-height: 40px;
-      margin-bottom: 16px;
-    }
-  
-    .project-section-body,
-    .ecosystem-intro {
-      font-size: 16px;
-      line-height: 24px;
-      max-width: 100%;
-    }
-  
-    .ecosystem-heading,
-    .brand-standards-title,
-    .mn-subsection-title {
-      font-size: 20px;
-      line-height: 28px;
-    }
-  
-    .project-navigation-label {
-      font-size: 12px;
-      line-height: 18px;
-    }
-  
-    .project-navigation-link {
-      font-size: 18px;
-      line-height: 28px;
-    }
+    /* PROJECT SECTION TYPOGRAPHY */
+
+.project-section-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.project-section-body,
+.ecosystem-intro {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 100%;
+}
+
+.ecosystem-heading,
+.brand-standards-title,
+.mn-subsection-title {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
   
   
     /* ---------- PROJECT SECTION WIDTHS ---------- */
   
-    .healthgauge-section,
-    .currents-section,
-    .cannabis-section,
-    .revayat-section,
-    .war-section,
-    .mn-section,
-    .uv-section,
-    .walking-section,
-    .mapping-section {
-      width: 100%;
-      max-width: 100%;
-    }
-  
-    .currents-scope {
-      width: 100%;
-      max-width: 100%;
-    }
+
+.healthgauge-section,
+.currents-section,
+.cannabis-section,
+.revayat-section,
+.war-section,
+.mn-section,
+.uv-section,
+.walking-section,
+.mapping-section {
+  width: 100%;
+  max-width: 100%;
+}
+
+.currents-scope {
+  width: 100%;
+  max-width: 100%;
+}
+/* PROJECT HERO SPACING */
+
+.healthgauge-hero-grid,
+.currents-hero,
+.cannabis-hero,
+.cannabis-hero-images,
+.revayat-hero,
+.war-children-hero,
+.mn-hero,
+.uv-hero,
+.walking-hero,
+.mapping-hero {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 48px;
+}
+/* =========================================================
+   GLOBAL PROJECT IMAGE GAPS — TABLET + PHONE
+   ========================================================= */
+
+   .healthgauge-hero-grid,
+   .mobile-app-row,
+   .web-platform-row,
+   .connected-care-row,
+   .brand-standards-images,
+   .typography-images,
+   .illustration-grid,
+   
+   .currents-navigation-grid,
+   .currents-typography-grid,
+   .currents-image-integration-grid,
+   .currents-scale-grid,
+   
+   .cannabis-hero,
+   .cannabis-hero-images,
+   .cannabis-two-col-row,
+   .print-row-top,
+   .adapting-print-row-top,
+   
+   .revayat-hero,
+   .revayat-campaign-grid,
+   .revayat-visual-grid,
+   .revayat-identity-grid,
+   .revayat-participation-grid,
+   .revayat-context-grid,
+   
+   .war-children-hero,
+   .war-sequence-grid,
+   .war-editorial-grid,
+   
+   .mn-hero,
+   .mn-logo-row-1,
+   .mn-logo-row-2,
+   .mn-brand-row-1,
+   .mn-brand-row-2,
+   .mn-digital-grid,
+   
+   .uv-hero,
+   .uv-digital-row-2,
+   .uv-illustration-grid,
+   .uv-team-grid,
+   .uv-presentation-grid,
+   
+   .walking-hero,
+   .walking-color-row,
+   .walking-art-direction-grid,
+   .walking-architecture-row,
+   
+   .mapping-hero,
+   .mapping-seasons-row,
+   .mapping-shoes-grid,
+   .mapping-landmarks-top,
+   .mapping-landmarks-bottom {
+     gap: 16px;
+   }
+   /* STACKED IMAGE GAPS */
+
+.mobile-app-images,
+.web-platform-images,
+.connected-care-images,
+.illustration-stack,
+.currents-page-architecture,
+.currents-navigation-column,
+.currents-typography-left,
+.currents-image-integration-stack,
+.mn-hero-left,
+.mn-hero-right,
+.mn-digital-stack,
+.uv-hero-stack,
+.mapping-hero-stack {
+  gap: 16px;
+}
+/* PLAYFUL WALKING — PAGE ARCHITECTURE */
+
+.walking-architecture-full {
+  margin-top: 16px;
+}
+/* PLAYFUL WALKING — CLOSING IMAGE */
+
+.walking-closing {
+  margin-top: 60px;
+}
+
+/* INTRO SECTION SPACING */
+
+.ecosystem-section,
+.currents-editorial-system,
+.cannabis-systems-intro,
+.revayat-research-intro,
+.war-intervention-intro,
+.mn-identity-intro,
+.uv-visual-language-intro,
+.walking-editorial-language,
+.mapping-personal-geography {
+  margin-top: 48px;
+}
+/* MAIN SECTION SPACING */
+
+.mobile-app-section,
+.web-platform-section,
+.connected-care-section,
+.brand-visual-section,
+.currents-section,
+.cannabis-section,
+.revayat-section,
+.war-section,
+.mn-section,
+.uv-section,
+.walking-section,
+.mapping-section {
+  margin-top: 60px;
+}
+/* PROJECT NAVIGATION — TABLET */
+
+.project-navigation {
+  margin-top: 60px;
+}
+
+.project-navigation-label {
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
+.project-navigation-link {
+  font-size: 17px;
+  line-height: 26px;
+}
   
   
     /* ---------- FOOTER ---------- */
@@ -3358,58 +3515,689 @@ body {
   
     /* ---------- PROJECT HEADER ---------- */
   
+
+    .project-header-grid {
+      gap: 24px;
+    }
+    
     .project-title {
       font-size: 36px;
       line-height: 42px;
       margin-bottom: 24px;
     }
-  
+    
     .project-intro {
       font-size: 18px;
       line-height: 28px;
     }
-  
+    
     .project-meta .label {
       font-size: 10px;
-      line-height: 20px;
+      line-height: 16px;
+      letter-spacing: 0.10em;
+      margin-bottom: 4px;
     }
-  
+    
     .project-meta p {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 15px;
+      line-height: 22px;
     }
+    
+    .meta-item {
+      margin-bottom: 18px;
+    }
+    /* =========================================================
+   GLOBAL PROJECT IMAGE LAYOUT — PHONE
+   ========================================================= */
+
+/* STACK MULTI-COLUMN PROJECT GRIDS */
+
+.healthgauge-hero-grid,
+.mobile-app-row,
+.web-platform-row,
+.connected-care-row,
+.brand-standards-images,
+.typography-images,
+.illustration-grid,
+
+.currents-navigation-grid,
+.currents-typography-grid,
+.currents-image-integration-grid,
+.currents-scale-grid,
+
+.cannabis-hero-images,
+.cannabis-two-col-row,
+.print-row-top,
+.adapting-print-row-top,
+
+.revayat-hero,
+.revayat-campaign-grid,
+.revayat-visual-grid,
+.revayat-identity-grid,
+.revayat-participation-grid,
+.revayat-context-grid,
+
+.war-children-hero,
+.war-sequence-grid,
+.war-editorial-grid,
+
+.mn-hero,
+.mn-logo-row-1,
+.mn-logo-row-2,
+.mn-brand-row-1,
+.mn-brand-row-2,
+.mn-digital-grid,
+
+.uv-hero,
+.uv-digital-row-2,
+.uv-illustration-grid,
+.uv-team-grid,
+.uv-presentation-grid,
+
+.walking-hero,
+.walking-color-row,
+.walking-art-direction-grid,
+.walking-architecture-row,
+
+.mapping-hero,
+.mapping-seasons-row,
+.mapping-shoes-grid,
+.mapping-landmarks-top,
+.mapping-landmarks-bottom {
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 100%;
+}
+/* REMOVE FIXED DESKTOP WIDTHS — PHONE */
+
+.healthgauge-hero-image,
+.mobile-app-image,
+.web-platform-image,
+.connected-care-image,
+.brand-standards-image,
+
+.currents-nav-image-small,
+.currents-nav-image-large,
+.currents-type-image-small,
+.currents-type-image-large,
+.currents-image-integration-large,
+.currents-image-integration-small,
+.currents-scale-image,
+
+.cannabis-hero-image,
+.cannabis-platform-row-2-image,
+.hemp-platform-row-2-image,
+.print-row-top-left,
+.print-row-top-right,
+.adapting-print-left,
+.adapting-print-right,
+
+.revayat-hero-image,
+.revayat-campaign-large,
+.revayat-campaign-small,
+.revayat-visual-image,
+.revayat-identity-left,
+.revayat-identity-right,
+.revayat-participation-left,
+.revayat-participation-right,
+.revayat-context-left,
+.revayat-context-right,
+
+.war-sequence-card,
+.war-sequence-item,
+.war-editorial-image-large,
+.war-editorial-image-small,
+
+.mn-hero-left-01,
+.mn-hero-left-02,
+.mn-hero-left-03,
+.mn-hero-right-01,
+.mn-hero-right-02,
+.mn-logo-large,
+.mn-logo-small,
+.mn-brand-row-1-large,
+.mn-brand-row-1-small,
+.mn-brand-row-2-small,
+.mn-brand-row-2-large,
+.mn-digital-large,
+.mn-digital-small-top,
+.mn-digital-small-bottom,
+
+.uv-hero-large,
+.uv-hero-small-top,
+.uv-hero-small-bottom,
+.uv-digital-half,
+.uv-illustration-small,
+.uv-team-image,
+.uv-presentation-image,
+
+.walking-hero-large,
+.walking-hero-small,
+.walking-color-image,
+.walking-art-direction-image,
+.walking-architecture-half,
+
+.mapping-hero-large,
+.mapping-hero-small-top,
+.mapping-hero-small-bottom,
+.mapping-season-figure,
+.mapping-season-image,
+.mapping-shoe-row,
+.mapping-shoes-image,
+.mapping-landmark-top-figure,
+.mapping-landmark-top-image,
+.mapping-landmark-bottom-figure,
+.mapping-landmark-bottom-image {
+  width: 100%;
+  max-width: 100%;
+}
+/* =========================================================
+   GLOBAL PROJECT MEDIA SIZING — PHONE
+   ========================================================= */
+
+/* REMOVE DESKTOP FIXED HEIGHTS */
+
+.healthgauge-hero-image,
+.mobile-app-image,
+.web-platform-image,
+.connected-care-image,
+.brand-standards-image,
+.colour-palette-image,
+.typography-image,
+.illustration-tall-image,
+.illustration-wide-image,
+
+.currents-hero,
+.currents-page-image,
+.currents-nav-image-small,
+.currents-nav-image-large,
+.currents-type-image-small,
+.currents-type-image-large,
+.currents-image-integration-large,
+.currents-image-integration-small,
+.currents-scale-image,
+
+.cannabis-hero-image,
+.cannabis-platform-row-1,
+.cannabis-platform-row-2-image,
+.hemp-platform-row-1,
+.hemp-platform-row-2-image,
+.mobile-marketplace-image,
+.print-row-top-left,
+.print-row-top-right,
+.print-row-bottom,
+.adapting-print-left,
+.adapting-print-right,
+.adapting-print-row-bottom,
+
+.revayat-hero-image,
+.revayat-campaign-large,
+.revayat-campaign-small,
+.revayat-visual-image,
+.revayat-identity-left,
+.revayat-identity-right,
+.revayat-participation-left,
+.revayat-participation-right,
+.revayat-context-left,
+.revayat-context-right,
+
+.war-children-hero-image,
+.war-sequence-item,
+.war-wall-image,
+.war-portrait-system-image,
+.war-editorial-image-large,
+.war-editorial-image-small,
+
+.mn-hero-left-01,
+.mn-hero-left-02,
+.mn-hero-left-03,
+.mn-hero-right-01,
+.mn-hero-right-02,
+.mn-logo-large,
+.mn-logo-small,
+.mn-brand-row-1-large,
+.mn-brand-row-1-small,
+.mn-brand-row-2-small,
+.mn-brand-row-2-large,
+.mn-digital-large,
+.mn-digital-small-top,
+.mn-digital-small-bottom,
+
+.uv-hero-large,
+.uv-hero-small-top,
+.uv-hero-small-bottom,
+.uv-digital-row-1,
+.uv-digital-half,
+.uv-digital-row-3,
+.uv-illustration-large,
+.uv-illustration-small,
+.uv-team-image,
+.uv-colour-image,
+.uv-type-image,
+.uv-type-use-image,
+.uv-presentation-image,
+.uv-communications-01,
+.uv-communications-02,
+.uv-communications-03,
+
+.walking-hero-large,
+.walking-hero-small,
+.walking-reading-image,
+.walking-color-image,
+.walking-art-direction-image,
+.walking-architecture-half,
+.walking-architecture-full,
+.walking-closing,
+
+.mapping-hero-large,
+.mapping-hero-small-top,
+.mapping-hero-small-bottom,
+.mapping-season-image,
+.mapping-shoes-image,
+.mapping-landmark-top-image,
+.mapping-landmark-bottom-image,
+.mapping-closing {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* LET PROJECT ARTWORK KEEP ITS NATURAL RATIO */
+
+
+.project-page video {
+  max-width: 100%;
+}
   
   
     /* ---------- PROJECT SECTION TYPOGRAPHY ---------- */
-  
-    .project-section-title {
-      font-size: 30px;
-      line-height: 36px;
-      margin-bottom: 16px;
-    }
-  
-    .project-section-body,
-    .ecosystem-intro {
-      font-size: 16px;
-      line-height: 24px;
-    }
-  
-    .ecosystem-heading,
-    .brand-standards-title,
-    .mn-subsection-title {
-      font-size: 18px;
-      line-height: 26px;
-    }
-  
-    .project-navigation-label {
-      font-size: 11px;
-      line-height: 16px;
-    }
-  
-    .project-navigation-link {
-      font-size: 18px;
-      line-height: 28px;
-    }
+
+.project-section-title {
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 16px;
+}
+
+.project-section-body,
+.ecosystem-intro {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ecosystem-heading,
+.brand-standards-title,
+.mn-subsection-title {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+/* WAR CHILDREN — DAY LABELS */
+
+.war-sequence-label {
+  margin-top: 4px;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* WAR CHILDREN — SEQUENTIAL POSTER SPACING */
+
+.war-sequence-grid {
+  row-gap: 12px;
+}
+
+.war-wall-image {
+  margin-top: 12px;
+}
+/* ---------- HEALTHGAUGE HERO — PHONE ---------- */
+
+.healthgauge-hero-grid {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.healthgauge-hero-image {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.healthgauge-hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/* PROJECT HERO SPACING */
+
+.healthgauge-hero-grid,
+.currents-hero,
+.cannabis-hero,
+.cannabis-hero-images,
+.revayat-hero,
+.war-children-hero,
+.mn-hero,
+.uv-hero,
+.walking-hero,
+.mapping-hero {
+  margin-top: 40px;
+}
+/* INTRO SECTION SPACING */
+
+.ecosystem-section,
+.currents-editorial-system,
+.cannabis-systems-intro,
+.revayat-research-intro,
+.war-intervention-intro,
+.mn-identity-intro,
+.uv-visual-language-intro,
+.walking-editorial-language,
+.mapping-personal-geography {
+  margin-top: 40px;
+}
+/* GLOBAL IMAGE CAPTIONS — PHONE */
+
+.uv-image-caption,
+.mapping-image-caption,
+.mapping-shoe-captions,
+.mapping-landmark-caption {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+/* MAPPING MY EDMONTON — MOBILE IMAGE SPACING */
+
+.mapping-hero,
+.mapping-hero-stack,
+.mapping-seasons-row,{
+  gap: 16px;
+}
+
+/* MAPPING — SPACE BETWEEN WINTER / SUMMER GROUPS */
+
+.mapping-shoes-grid.captioned-grid {
+  row-gap: 32px;
+}
+/* MAPPING MY EDMONTON — CLOSING IMAGE */
+
+.mapping-closing {
+  margin-top: 40px;
+}
+/* GLOBAL CAPTIONED IMAGE SPACING — PHONE */
+
+.captioned-grid {
+  gap: 12px;
+}
+
+/* space between rows within each shoe column */
+.mapping-shoe-row + .mapping-shoe-row {
+  margin-top: 16px;
+}
+
+/* space between the 2-landmark row and 3-landmark row */
+.mapping-landmarks-bottom {
+  margin-top: 16px;
+}
+/* MAPPING MY EDMONTON — LEGEND PHONE */
+
+.mapping-legend {
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 100%;
+  gap: 24px;
+}
+
+.mapping-legend-item {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mapping-legend-item:not(:first-child) {
+  padding-left: 0;
+  border-left: 0;
+}
+/* MAPPING MY EDMONTON — SHOE LABEL SPACING */
+
+.mapping-shoes-label {
+  margin-bottom: 12px;
+}
+/* MAPPING MY EDMONTON — SHOE LABELS */
+
+.mapping-shoes-label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+/* MAIN SECTION SPACING */
+
+.mobile-app-section,
+.web-platform-section,
+.connected-care-section,
+.brand-visual-section,
+.currents-section,
+.cannabis-section,
+.revayat-section,
+.war-section,
+.mn-section,
+.uv-section,
+.walking-section,
+.mapping-section {
+  margin-top: 48px;
+}
+
+
+/* PROJECT NAVIGATION — PHONE */
+
+.project-navigation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.project-navigation-side {
+  width: 100%;
+  min-width: 0;
+}
+
+.project-navigation-label {
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+
+.project-navigation-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  min-width: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.project-nav-title-full {
+  display: none;
+}
+
+.project-nav-title-short {
+  display: inline;
+}
+
+.project-nav-arrow {
+  flex-shrink: 0;
+}
+
+.project-navigation-next {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.project-navigation-next .project-navigation-link {
+  justify-content: flex-end;
+}
+/* HEALTHGAUGE HERO — PHONE */
+
+.healthgauge-hero-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.healthgauge-hero-image {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.healthgauge-hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/* CANNABIS HERO — PHONE */
+
+.cannabis-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 100%;
+  gap: 16px;
+}
+
+.cannabis-page .cannabis-hero-image,
+.cannabis-hero-image {
+  flex: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.cannabis-hero-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/* CANNABIS — MOBILE IMAGE-TO-IMAGE SPACING */
+
+.cannabis-hero,
+.cannabis-hero-images {
+  gap: 16px;
+}
+
+.cannabis-two-col-row,
+.print-row-bottom,
+.adapting-print-row-bottom {
+  margin-top: 16px;
+}
+/* NORMAL PROJECT ASSETS — SCALE TO PHONE */
+
+.project-page .mobile-fit {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.project-page .mobile-fit img,
+.project-page .mobile-fit video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/* HEALTHGAUGE ILLUSTRATION CAROUSEL — PHONE */
+
+.illustration-carousel {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.illustration-carousel-item {
+  width: 280px;
+}
+
+.illustration-carousel-item.is-center {
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.illustration-carousel-item.is-left {
+  left: calc(50% - 165px);
+  transform: translate(-50%, -50%) scale(0.78);
+}
+
+.illustration-carousel-item.is-right {
+  left: calc(50% + 165px);
+  transform: translate(-50%, -50%) scale(0.78);
+}
+
+.illustration-carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.walking-color-legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.walking-color-key {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.walking-color-dot {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+}
+/* HEALTHGAUGE ECOSYSTEM — PHONE */
+
+.ecosystem-grid {
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  margin-top: 28px;
+}
+.ecosystem-section {
+  margin-top: 40px;
+}
+.ecosystem-item h3 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.ecosystem-item p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.mobile-nowrap {
+  white-space: nowrap;
+}
+
+
   
   
     /* ---------- FOOTER ---------- */

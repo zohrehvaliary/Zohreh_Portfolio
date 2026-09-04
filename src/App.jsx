@@ -372,6 +372,7 @@ const PROJECTS = [
       id: 7,
     
       cardTitle: 'Cannabis Marketplace',
+      mobileNavTitle: 'Cannabis Market',
       cardCategory: 'INFORMATION DESIGN · APP DESIGN',
     
       title: 'Cannabis & Hemp Marketplace Platforms',
@@ -405,12 +406,19 @@ const PROJECTS = [
       id: 9,
     
       cardTitle: 'Mapping My Edmonton',
+      mobileNavTitle: 'Mapping Edmonton',
       cardCategory: 'INFORMATION DESIGN · ILLUSTRATION',
     
       title: 'Mapping My Edmonton',
       year: '2017',
       role: 'Designer & Illustrator',
-      scope: 'Information Design · Illustrated Mapping · Data Visualization',
+      scope: (
+        <>
+          Information Design · Illustrated Mapping ·
+          <br className="mobile-only-break" />
+          Data Visualization
+        </>
+      ),
     
       intro:
         'A pair of illustrated maps exploring Edmonton through personal movement, seasonal change, and footwear. Combining landmarks, routes, climate information, and an autobiographical shoe inventory, the project uses cartography as a record of everyday movement through the city.',
@@ -519,7 +527,14 @@ export default function App() {
                 className="project-navigation-link"
                 onClick={() => setView(previousProject)}
               >
-                ← {previousProject.cardTitle}
+                <span className="project-nav-arrow">←</span>
+                <span className="project-nav-title project-nav-title-full">
+  {previousProject.cardTitle}
+</span>
+
+<span className="project-nav-title project-nav-title-short">
+  {previousProject.mobileNavTitle || previousProject.cardTitle}
+</span>
               </button>
             </>
           )}
@@ -536,7 +551,14 @@ export default function App() {
                 className="project-navigation-link"
                 onClick={() => setView(nextProject)}
               >
-                {nextProject.cardTitle} →
+                <span className="project-nav-title project-nav-title-full">
+  {nextProject.cardTitle}
+</span>
+
+<span className="project-nav-title project-nav-title-short">
+  {nextProject.mobileNavTitle || nextProject.cardTitle}
+</span>
+<span className="project-nav-arrow">→</span>
               </button>
             </>
           )}
@@ -760,7 +782,7 @@ return (
       </div>
 
       <div className="healthgauge-hero-grid">
-  <div className="healthgauge-hero-image">
+      <div className="healthgauge-hero-image mobile-fit">
   <img
   src={hgHero01}
   alt="HealthGauge mobile interface designs"
@@ -770,7 +792,7 @@ return (
 />
   </div>
 
-  <div className="healthgauge-hero-image">
+  <div className="healthgauge-hero-image mobile-fit">
   <img
   src={hgHero02}
   alt="HealthGauge dark mode mobile interface"
@@ -793,17 +815,21 @@ return (
     <div className="ecosystem-item">
       <h3>Mobile App</h3>
       <p>
-        Personal health tracking, measurements, trends, and insights across
-        light and dark interfaces.
-      </p>
+  Personal health tracking, measurements, trends,
+  <br className="mobile-only-break" />
+  and insights across light and dark interfaces.
+</p>
     </div>
 
     <div className="ecosystem-item">
       <h3>Web Platform</h3>
       <p>
-        Dashboards, health histories, data visualization, file management,
-        surveys, credentials, and administrative tools.
-      </p>
+  Dashboards, health histories, data visualization,
+  <br className="mobile-only-break" />
+  file management, surveys, credentials, and
+  <br className="mobile-only-break" />
+  administrative tools.
+</p>
     </div>
 
     <div className="ecosystem-item">
@@ -839,41 +865,41 @@ return (
 
   <div className="mobile-app-images">
   <div className="mobile-app-row mobile-app-row-large">
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile01} alt="" loading="lazy" decoding="async" />
     </div>
 
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile02} alt="" loading="lazy" decoding="async" />
     </div>
   </div>
 
   <div className="mobile-app-row mobile-app-row-small">
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile03} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile04} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile05} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile06} alt="" loading="lazy" decoding="async" />
     </div>
   </div>
 
   <div className="mobile-app-row mobile-app-row-small">
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile07} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile08} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile09} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="mobile-app-image">
+    <div className="mobile-app-image mobile-fit">
     <img src={hgMobile10} alt="" loading="lazy" decoding="async" />
     </div>
   </div>
@@ -891,7 +917,7 @@ return (
   </p>
 
   <div className="web-platform-images">
-  <div className="web-platform-image web-platform-image-large">
+  <div className="web-platform-image web-platform-image-large mobile-fit">
   <img
   src={hgWeb01}
   alt=""
@@ -934,19 +960,19 @@ return (
 
   <div className="connected-care-images">
   <div className="connected-care-row connected-care-row-top">
-    <div className="connected-care-image">
+    <div className="connected-care-image mobile-fit">
     <img src={hgCare01} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="connected-care-image">
+    <div className="connected-care-image mobile-fit">
     <img src={hgCare02} alt="" loading="lazy" decoding="async" />
     </div>
   </div>
 
   <div className="connected-care-row connected-care-row-bottom">
-    <div className="connected-care-image">
+    <div className="connected-care-image mobile-fit">
     <img src={hgCare03} alt="" loading="lazy" decoding="async" />
     </div>
-    <div className="connected-care-image">
+    <div className="connected-care-image mobile-fit">
     <img src={hgCare04} alt="" loading="lazy" decoding="async" />
     </div>
   </div>
@@ -1605,9 +1631,11 @@ if (typeof view === 'object' && view.id === 7) {
 
         {/* CANNABIS PRINT */}
         <section className="healthgauge-section cannabis-section cannabis-print-section">
-          <h2 className="project-section-title">
-            Extending the System to Print
-          </h2>
+        <h2 className="project-section-title">
+  Extending the System
+  <br className="mobile-only-break" />
+  to Print
+</h2>
 
           <p className="project-section-body">
             The visual system extended beyond the digital platform into a printed
@@ -1695,9 +1723,11 @@ if (typeof view === 'object' && view.id === 7) {
 
         {/* HEMP PRINT */}
         <section className="healthgauge-section cannabis-section hemp-print-section">
-          <h2 className="project-section-title">
-            Adapting the System for Print
-          </h2>
+        <h2 className="project-section-title">
+  Adapting the System
+  <br className="mobile-only-break" />
+  for Print
+</h2>
 
           <p className="project-section-body">
             The hemp visual system was extended into a printed market report,
@@ -2724,7 +2754,7 @@ if (typeof view === 'object' && view.id === 3) {
   other participants.
 </p>
 
-<div className="uv-team-grid">
+<div className="uv-team-grid captioned-grid">
   <figure className="uv-captioned-figure">
     <div className="uv-team-image">
       <img
@@ -3430,7 +3460,7 @@ if (typeof view === 'object' && view.id === 9) {
     personal experience.
   </p>
 
-  <div className="mapping-shoes-grid">
+  <div className="mapping-shoes-grid captioned-grid">
   <div className="mapping-shoes-column">
   <h3 className="mapping-shoes-label">WINTER SHOES</h3>
 
@@ -3518,7 +3548,7 @@ if (typeof view === 'object' && view.id === 9) {
     maps legible at a distance.
   </p>
 
-  <div className="mapping-landmarks-top">
+  <div className="mapping-landmarks-top captioned-grid">
     <figure className="mapping-landmark-top-figure">
       <div className="mapping-landmark-top-image">
         <img
