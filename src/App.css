@@ -3417,7 +3417,7 @@ body {
       line-height: 20px;
       letter-spacing: 0.10em;
     }
-  }
+
   
     /* ---------- PAGE LAYOUT ---------- */
   
@@ -4296,3 +4296,292 @@ body {
 .uv-type-use-mobile img + img {
   margin-top: 12px;
 }
+} /* END PHONE — max-width: 480px */
+/* =========================================================
+   RECOVERED PROJECT LAYOUT — TABLET ONLY
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .project-page {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+    /* keep fixed desktop children from forcing overflow */
+    .project-page [class*="-grid"] > *,
+    .project-page [class*="-row"] > * {
+      min-width: 0;
+      max-width: 100%;
+    }
+  
+    /* HEADER — CONTACT VISIBLE ON TABLET */
+    .header {
+      left: 0;
+      right: 0;
+      width: auto;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+  
+    .nav-links .mobile-hide {
+      display: inline-block !important;
+    }
+  
+    /* tablet metadata spacing we settled on */
+    .meta-item {
+      margin-bottom: 18px;
+    }
+  
+    /* tablet Scope → hero spacing */
+    .healthgauge-hero-grid,
+    .currents-hero,
+    .cannabis-hero,
+    .cannabis-hero-images,
+    .revayat-hero,
+    .war-children-hero,
+    .mn-hero,
+    .uv-hero,
+    .walking-hero,
+    .mapping-hero {
+      margin-top: 32px;
+    }
+  
+  
+    /* HEALTHGAUGE */
+  
+    .healthgauge-hero-grid,
+    .brand-standards-images {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  
+    .mobile-app-row-large,
+    .web-platform-row,
+    .connected-care-row-top,
+    .connected-care-row-bottom {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .mobile-app-row-small,
+    .typography-images {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  
+  
+    /* CURRENTS */
+  
+    .currents-navigation-grid,
+    .currents-typography-grid {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+  
+    .currents-image-integration-grid {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+  
+    .currents-scale-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+  
+    /* CANNABIS */
+  
+    .cannabis-hero {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .cannabis-page .cannabis-hero-image {
+      flex: none;
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .cannabis-hero-images,
+    .cannabis-two-col-row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .print-row-top {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+  
+    .adapting-print-row-top {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+  
+  
+    /* REVAYAT */
+  
+    .revayat-hero {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    .revayat-campaign-grid,
+    .revayat-context-grid {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+  
+    .revayat-visual-grid,
+    .revayat-participation-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .revayat-identity-grid {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+  
+  
+    /* WAR CHILDREN */
+  
+    .war-children-hero {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    .war-sequence-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .war-editorial-grid {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+  
+  
+    /* MISSION NORTH */
+  
+    .mn-hero {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+  
+    .mn-logo-row-1 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .mn-logo-row-2 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    .mn-brand-row-1,
+    .mn-digital-grid {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  
+    .mn-brand-row-2 {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+  
+  
+    /* UNUSUAL VENTURES */
+  
+    .uv-hero {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  
+    .uv-digital-row-2,
+    .uv-presentation-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .uv-illustration-grid,
+    .uv-team-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+  
+    /* PLAYFUL WALKING */
+  
+    .walking-hero {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+  
+    .walking-color-row,
+    .walking-art-direction-grid,
+    .walking-architecture-row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+  
+    /* MAPPING MY EDMONTON */
+  
+    .mapping-hero {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    }
+  
+    .mapping-seasons-row,
+    .mapping-shoes-grid,
+    .mapping-landmarks-top {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
+    .mapping-landmarks-bottom {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    .mapping-legend {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: 100%;
+      max-width: 100%;
+      column-gap: 32px;
+      row-gap: 32px;
+    }
+  
+    .mapping-legend-item {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      padding: 0;
+      border-left: 0;
+    }
+  
+    .mapping-legend-item:not(:first-child) {
+      padding-left: 0;
+      border-left: 0;
+    }
+  }
+
+/* =========================================================
+   TABLET HEADER — FINAL OVERRIDE
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .header {
+      left: 0;
+      right: 0;
+      width: auto;
+      padding: 20px 24px;
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      flex-shrink: 0;
+    }
+  
+    .nav-links {
+      display: flex !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      align-items: center;
+      gap: 14px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+  
+    .nav-links a {
+      display: inline-block !important;
+      font-size: 11px;
+      line-height: 20px;
+      letter-spacing: 0.10em;
+    }
+  
+    .nav-links .mobile-hide {
+      display: inline-block !important;
+    }
+  }
