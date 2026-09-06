@@ -2145,6 +2145,12 @@ body {
   overflow: hidden;
 }
 
+.uv-colour-mobile,
+.uv-type-mobile,
+.uv-type-use-mobile {
+  display: none;
+}
+
 .uv-digital-row-2 {
   display: grid;
   grid-template-columns: repeat(2, 628px);
@@ -3411,7 +3417,7 @@ body {
       line-height: 20px;
       letter-spacing: 0.10em;
     }
-  
+  }
   
     /* ---------- PAGE LAYOUT ---------- */
   
@@ -4196,10 +4202,6 @@ body {
 .mobile-nowrap {
   white-space: nowrap;
 }
-
-
-  
-  
     /* ---------- FOOTER ---------- */
   
     .footer {
@@ -4216,4 +4218,81 @@ body {
       font-size: 11px;
       line-height: 20px;
     }
-  }
+
+  /* UV MOBILE BRAND ASSETS */
+
+.uv-colour-mobile,
+.uv-type-mobile,
+.uv-type-use-mobile {
+  display: block;
+  width: 350px;
+  max-width: 100%;
+}
+
+/* hide desktop brand boards on phone */
+.uv-colour-subsection .uv-colour-image,
+.uv-type-subsection .uv-type-image,
+.uv-type-use-subsection .uv-type-use-image {
+  display: none;
+}
+
+.uv-colour-top-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 100%;
+}
+
+.uv-colour-top-mobile img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.uv-primary-palette-mobile {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.uv-palette-label {
+  margin: 0 0 12px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.uv-primary-swatches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.uv-primary-swatch {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.uv-primary-swatch-light {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.uv-mobile-palette-group {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.uv-mobile-palette-group img,
+.uv-type-mobile img,
+.uv-type-use-mobile img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.uv-mobile-palette-group img + img,
+.uv-type-use-mobile img + img {
+  margin-top: 12px;
+}

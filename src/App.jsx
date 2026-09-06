@@ -2823,11 +2823,92 @@ if (typeof view === 'object' && view.id === 3) {
   The Unusual Ventures logo predated my engagement. My work focused on developing the broader visual identity system around it.
 </p>
 
-          <div className="uv-colour-subsection">
+<div className="uv-colour-subsection">
   <h3 className="ecosystem-heading">
     Colour Palette
   </h3>
 
+  {/* MOBILE COLOUR PALETTE */}
+  <div className="uv-colour-mobile">
+
+  {/* LOGO + COLOUR RELATIONSHIPS */}
+  <div className="uv-colour-top-mobile">
+    <img
+      src={uvLogoMobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+
+    <img
+      src={uvColorCircleMobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+
+  {/* PRIMARY PALETTE */}
+  <div className="uv-primary-palette-mobile">
+    <p className="uv-palette-label">Primary Color Palette</p>
+
+    <div className="uv-primary-swatches">
+      <div
+        className="uv-primary-swatch"
+        style={{ backgroundColor: '#002396' }}
+      />
+
+      <div
+        className="uv-primary-swatch"
+        style={{ backgroundColor: '#031214' }}
+      />
+
+      <div
+        className="uv-primary-swatch"
+        style={{ backgroundColor: '#B0B3B8' }}
+      />
+
+      <div
+        className="uv-primary-swatch uv-primary-swatch-light"
+        style={{ backgroundColor: '#F5F5F9' }}
+      />
+    </div>
+  </div>
+
+  {/* ILLUSTRATION PALETTE */}
+  <div className="uv-mobile-palette-group">
+    <p className="uv-palette-label">Illustration Palette</p>
+
+    <img
+      src={uvIllustrationPalette01Mobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+
+    <img
+      src={uvIllustrationPalette02Mobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+
+  {/* GREYSCALE */}
+  <div className="uv-mobile-palette-group">
+    <p className="uv-palette-label">UI Greyscale</p>
+
+    <img
+      src={uvGreyscalePaletteMobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+</div>
+
+  </div>
+
+  {/* DESKTOP / TABLET COLOUR PALETTE */}
   <div className="uv-colour-image">
     <img
       src={uvColor}
@@ -2837,7 +2918,14 @@ if (typeof view === 'object' && view.id === 3) {
     />
   </div>
 </div>
-
+<div className="uv-type-mobile">
+  <img
+    src={uvTypeMobile}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+</div>
 <div className="uv-type-subsection">
   <h3 className="ecosystem-heading">
     Typography
@@ -2857,6 +2945,21 @@ if (typeof view === 'object' && view.id === 3) {
   <h3 className="ecosystem-heading">
     Typography in Use
   </h3>
+  <div className="uv-type-use-mobile">
+  <img
+    src={uvTypeInUse01Mobile}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+
+  <img
+    src={uvTypeInUse02Mobile}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+</div>
 
   <div className="uv-type-use-image">
     <img
