@@ -66,6 +66,16 @@ import uvTeam03 from './assets/UV-team-03.jpg';
 import uvColor from './assets/UV-palette.png';
 import uvType from './assets/UV-type.png';
 import uvTypeUse from './assets/UV-type-IN-Use.png';
+
+// Unusual Ventures — Mobile Visual Identity
+import uvLogoMobile from './assets/UV-logo-mobile.png';
+import uvColorCircleMobile from './assets/UV-color-circle.png';
+import uvGreyscalePaletteMobile from './assets/UV-greyscal-palette.png';
+import uvIllustrationPalette01Mobile from './assets/UV-illustration-palette-01.png';
+import uvIllustrationPalette02Mobile from './assets/xUV-illustration-palette-02.png';
+import uvTypeMobile from './assets/UV-type-mobile.png';
+import uvTypeInUse01Mobile from './assets/UV-type-in-use-01.png';
+import uvTypeInUse02Mobile from './assets/UV-type-in-use-02.png';
 // Unusual Ventures — Presentation System
 import uvPresentation01 from './assets/UV-presentation-01.jpg';
 import uvPresentation02 from './assets/UV-presentation-02.jpg';

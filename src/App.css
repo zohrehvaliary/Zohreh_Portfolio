@@ -4585,3 +4585,1977 @@ body {
       display: inline-block !important;
     }
   }
+  /* =========================================================
+   RECOVERED — HEALTHGAUGE TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .healthgauge-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* HERO — preserve desktop composition */
+
+  .healthgauge-page .healthgauge-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+
+    aspect-ratio: 1280 / 420;
+    align-items: stretch;
+
+    margin-top: 32px;
+  }
+
+  .healthgauge-page .healthgauge-hero-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .healthgauge-page .healthgauge-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* FLUID GRID COLUMNS */
+
+  .healthgauge-page .brand-standards-images {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
+
+  .healthgauge-page .mobile-app-row-large,
+  .healthgauge-page .web-platform-row,
+  .healthgauge-page .connected-care-row-top,
+  .healthgauge-page .connected-care-row-bottom {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .healthgauge-page .mobile-app-row-small,
+  .healthgauge-page .typography-images {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .healthgauge-page .illustration-grid {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr)
+      minmax(0, 1fr)
+      minmax(0, 1.56fr)
+      minmax(0, 1.56fr);
+  }
+
+
+  /* REMOVE DESKTOP FIXED WIDTHS / HEIGHTS */
+
+  .healthgauge-page .mobile-app-image,
+  .healthgauge-page .web-platform-image,
+  .healthgauge-page .connected-care-image,
+  .healthgauge-page .brand-standards-image,
+  .healthgauge-page .brand-standards-image-large,
+  .healthgauge-page .brand-standards-image-small,
+  .healthgauge-page .colour-palette-image,
+  .healthgauge-page .typography-image,
+  .healthgauge-page .illustration-tall-image,
+  .healthgauge-page .illustration-wide-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  .healthgauge-page .mobile-app-row-large .mobile-app-image,
+  .healthgauge-page .mobile-app-row-small .mobile-app-image,
+  .healthgauge-page .connected-care-row-top .connected-care-image,
+  .healthgauge-page .connected-care-row-bottom .connected-care-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* KEEP ARTWORK PROPORTIONAL */
+
+  .healthgauge-page .mobile-app-image img,
+  .healthgauge-page .web-platform-image img,
+  .healthgauge-page .connected-care-image img,
+  .healthgauge-page .brand-standards-image img,
+  .healthgauge-page .colour-palette-image img,
+  .healthgauge-page .typography-image img,
+  .healthgauge-page .illustration-tall-image img,
+  .healthgauge-page .illustration-wide-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+
+  /* BRAND STANDARDS STACK */
+
+  .healthgauge-page .brand-standards-image-stack {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+
+  /* COLOUR PALETTE */
+
+  .healthgauge-page .colour-palette,
+  .healthgauge-page .colour-palette-images {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .healthgauge-page .colour-palette-images {
+    align-items: stretch;
+  }
+
+
+  /* CAROUSEL — do not escape viewport */
+
+  .healthgauge-page .illustration-carousel {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+
+  /* SPACING WE HAD SETTLED ON */
+
+  .healthgauge-page .ecosystem-section {
+    margin-top: 40px;
+  }
+
+  .healthgauge-page .mobile-app-section,
+  .healthgauge-page .web-platform-section,
+  .healthgauge-page .connected-care-section,
+  .healthgauge-page .brand-visual-section {
+    margin-top: 48px;
+  }
+
+  .healthgauge-page .brand-standards,
+  .healthgauge-page .colour-palette,
+  .healthgauge-page .typography-subsection,
+  .healthgauge-page .illustration-system-subsection {
+    margin-top: 40px;
+  }
+}
+/* =========================================================
+   RECOVERED — MISSION NORTH TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .mission-north-page {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+  
+    /* HERO — preserve desktop composition and alignment */
+  
+    .mission-north-page .mn-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 519fr) minmax(0, 737fr);
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+  
+      aspect-ratio: 1280 / 720;
+      align-items: stretch;
+  
+      margin-top: 32px;
+    }
+  
+    .mission-north-page .mn-hero-left,
+    .mission-north-page .mn-hero-right {
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      gap: 16px;
+    }
+  
+    .mission-north-page .mn-hero-left {
+      display: grid;
+      grid-template-rows: 196fr 196fr 279fr;
+    }
+  
+    .mission-north-page .mn-hero-right {
+      display: grid;
+      grid-template-rows: 310fr 386fr;
+    }
+  
+    .mission-north-page .mn-hero-left-01,
+    .mission-north-page .mn-hero-left-02,
+    .mission-north-page .mn-hero-left-03,
+    .mission-north-page .mn-hero-right-01,
+    .mission-north-page .mn-hero-right-02 {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+    .mission-north-page .mn-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* LOGO DEVELOPMENT */
+  
+    .mission-north-page .mn-logo-row-1 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .mission-north-page .mn-logo-row-2 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .mission-north-page .mn-logo-large,
+    .mission-north-page .mn-logo-small {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+    }
+  
+    .mission-north-page .mn-logo-large img,
+    .mission-north-page .mn-logo-small img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* VISUAL IDENTITY */
+  
+    .mission-north-page .mn-colour-image,
+    .mission-north-page .mn-typography-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+  
+    .mission-north-page .mn-colour-image img,
+    .mission-north-page .mn-typography-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* BRAND APPLICATIONS */
+  
+    .mission-north-page .mn-brand-row-1 {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .mission-north-page .mn-brand-row-2 {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .mission-north-page .mn-brand-row-1-large,
+    .mission-north-page .mn-brand-row-1-small,
+    .mission-north-page .mn-brand-row-2-small,
+    .mission-north-page .mn-brand-row-2-large {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+    .mission-north-page .mn-brand-row-1-large img,
+    .mission-north-page .mn-brand-row-2 img,
+    .mission-north-page .mn-brand-row-1-small video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* DIGITAL EXPERIENCE */
+  
+    .mission-north-page .mn-digital-grid {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .mission-north-page .mn-digital-large,
+    .mission-north-page .mn-digital-small-top,
+    .mission-north-page .mn-digital-small-bottom {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+  
+    /* SPACING */
+  
+    .mission-north-page .mn-identity-intro {
+      margin-top: 32px;
+    }
+  
+    .mission-north-page .mn-section {
+      margin-top: 40px;
+    }
+  
+    .mission-north-page .mn-colour-subsection,
+    .mission-north-page .mn-typography-subsection {
+      margin-top: 32px;
+    }
+  
+    .mission-north-page .mn-colour-image,
+    .mission-north-page .mn-typography-image,
+    .mission-north-page .mn-brand-row-1,
+    .mission-north-page .mn-brand-row-2,
+    .mission-north-page .mn-digital-grid {
+      margin-top: 16px;
+    }
+  }
+  /* =========================================================
+   MISSION NORTH TABLET — FIX APPLICATION / DIGITAL CROPPING
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  /* BRAND APPLICATIONS — ROW 1
+     Desktop composition: 1280 × 692 */
+
+  .mission-north-page .mn-brand-row-1 {
+    width: 100%;
+    aspect-ratio: 1280 / 692;
+    align-items: stretch;
+  }
+
+  .mission-north-page .mn-brand-row-1-large,
+  .mission-north-page .mn-brand-row-1-small {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .mission-north-page .mn-brand-row-1-large img,
+  .mission-north-page .mn-brand-row-1-small video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* BRAND APPLICATIONS — ROW 2
+     Desktop composition: 1280 × 374 */
+
+  .mission-north-page .mn-brand-row-2 {
+    width: 100%;
+    aspect-ratio: 1280 / 374;
+    align-items: stretch;
+  }
+
+  .mission-north-page .mn-brand-row-2-small,
+  .mission-north-page .mn-brand-row-2-large {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .mission-north-page .mn-brand-row-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* DIGITAL EXPERIENCE
+     Desktop composition: 1280 × 781 */
+
+  .mission-north-page .mn-digital-grid {
+    width: 100%;
+    aspect-ratio: 1280 / 781;
+    align-items: stretch;
+  }
+
+  .mission-north-page .mn-digital-large {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .mission-north-page .mn-digital-stack {
+    display: grid;
+    grid-template-rows: 295fr 462fr;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+  }
+
+  .mission-north-page .mn-digital-small-top,
+  .mission-north-page .mn-digital-small-bottom {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .mission-north-page .mn-digital-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+/* =========================================================
+   RECOVERED — UNUSUAL VENTURES TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .unusual-ventures-page {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+  
+    /* HERO — preserve 845 / 411 composition */
+  
+    .unusual-ventures-page .uv-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 1280 / 662;
+      align-items: stretch;
+  
+      margin-top: 32px;
+    }
+  
+    .unusual-ventures-page .uv-hero-large {
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-hero-stack {
+      display: grid;
+      grid-template-rows: 407fr 231fr;
+      gap: 16px;
+  
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+    }
+  
+    .unusual-ventures-page .uv-hero-small-top,
+    .unusual-ventures-page .uv-hero-small-bottom {
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-hero img,
+    .unusual-ventures-page .uv-hero video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* STORY-LED DIGITAL EXPERIENCE */
+  
+    .unusual-ventures-page .uv-digital-row-1 {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 483;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-digital-row-1 img,
+    .unusual-ventures-page .uv-digital-row-1 video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .unusual-ventures-page .uv-digital-row-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+    }
+  
+    .unusual-ventures-page .uv-digital-half {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 296;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-digital-half img,
+    .unusual-ventures-page .uv-digital-half video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .unusual-ventures-page .uv-digital-row-3 {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 556;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-digital-row-3 img,
+    .unusual-ventures-page .uv-digital-row-3 video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* ILLUSTRATION SYSTEM */
+  
+    .unusual-ventures-page .uv-illustration-large {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 483;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-illustration-grid,
+    .unusual-ventures-page .uv-team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .unusual-ventures-page .uv-illustration-small,
+    .unusual-ventures-page .uv-team-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 411 / 383;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-illustration-large img,
+    .unusual-ventures-page .uv-illustration-small img,
+    .unusual-ventures-page .uv-team-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* VISUAL IDENTITY BOARDS — DO NOT CROP */
+  
+    .unusual-ventures-page .uv-colour-image,
+    .unusual-ventures-page .uv-type-image,
+    .unusual-ventures-page .uv-type-use-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+  
+    .unusual-ventures-page .uv-colour-image img,
+    .unusual-ventures-page .uv-type-image img,
+    .unusual-ventures-page .uv-type-use-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* PRESENTATION SYSTEM */
+  
+    .unusual-ventures-page .uv-presentation-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .unusual-ventures-page .uv-presentation-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 370;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-presentation-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* BRAND COMMUNICATIONS */
+  
+    .unusual-ventures-page .uv-communications-01 {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 758;
+    }
+  
+    .unusual-ventures-page .uv-communications-02 {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 409;
+    }
+  
+    .unusual-ventures-page .uv-communications-03 {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 436;
+    }
+  
+    .unusual-ventures-page .uv-communications-01,
+    .unusual-ventures-page .uv-communications-02,
+    .unusual-ventures-page .uv-communications-03 {
+      max-width: 100%;
+      overflow: hidden;
+    }
+  
+    .unusual-ventures-page .uv-communications-01 img,
+    .unusual-ventures-page .uv-communications-02 img,
+    .unusual-ventures-page .uv-communications-03 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* SPACING */
+  
+    .unusual-ventures-page .uv-visual-language-intro {
+      margin-top: 40px;
+    }
+  
+    .unusual-ventures-page .uv-section {
+      margin-top: 48px;
+    }
+  
+    .unusual-ventures-page .uv-team-subsection,
+    .unusual-ventures-page .uv-colour-subsection,
+    .unusual-ventures-page .uv-type-subsection,
+    .unusual-ventures-page .uv-type-use-subsection {
+      margin-top: 40px;
+    }
+  }
+  /* =========================================================
+   RECOVERED — CURRENTS TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .currents-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* HERO */
+
+  .currents-page .currents-hero {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1280 / 720;
+    margin-top: 32px;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* PAGE ARCHITECTURE */
+
+  .currents-page .currents-page-architecture {
+    width: 100%;
+    max-width: 100%;
+    gap: 16px;
+  }
+
+  .currents-page .currents-page-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1280 / 606;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* NAVIGATION & HIERARCHY */
+
+  .currents-page .currents-navigation-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .currents-page .currents-navigation-column {
+    width: 100%;
+    min-width: 0;
+    gap: 16px;
+  }
+
+  .currents-page .currents-nav-image-small,
+  .currents-page .currents-nav-image-large {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 519 / 294;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-nav-image-large {
+    aspect-ratio: 737 / 294;
+  }
+
+  .currents-page .currents-nav-image-small img,
+  .currents-page .currents-nav-image-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* TYPOGRAPHY & VISUAL LANGUAGE */
+
+  .currents-page .currents-typography-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .currents-page .currents-typography-left {
+    width: 100%;
+    min-width: 0;
+    gap: 16px;
+  }
+
+  .currents-page .currents-type-image-small {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 519 / 290;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-type-image-large {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 737 / 604;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-type-image-small img,
+  .currents-page .currents-type-image-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* IMAGE INTEGRATION & ART DIRECTION */
+
+  .currents-page .currents-image-integration-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .currents-page .currents-image-integration-large {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 737 / 476;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-image-integration-stack {
+    width: 100%;
+    min-width: 0;
+    gap: 16px;
+  }
+
+  .currents-page .currents-image-integration-small {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 519 / 226;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-image-integration-large img,
+  .currents-page .currents-image-integration-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* DESIGNING AT SCALE */
+
+  .currents-page .currents-scale-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .currents-page .currents-scale-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 626 / 295;
+    overflow: hidden;
+  }
+
+  .currents-page .currents-scale-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* SPACING */
+
+  .currents-page .currents-editorial-system {
+    margin-top: 40px;
+  }
+
+  .currents-page .currents-section {
+    margin-top: 48px;
+  }
+
+  .currents-page .page-architecture-section {
+    margin-top: 40px;
+  }
+}
+/* =========================================================
+   RECOVERED — CANNABIS / HEMP TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .cannabis-page {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+  
+    /* HERO — two equal panels */
+  
+    .cannabis-page .cannabis-hero {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      margin-top: 32px;
+    }
+  
+    .cannabis-page .cannabis-hero-image {
+      flex: none;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 450;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .cannabis-hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* PLATFORM FULL-WIDTH BOARDS */
+  
+    .cannabis-page .cannabis-platform-row-1,
+    .cannabis-page .hemp-platform-row-1 {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 893;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .cannabis-platform-row-1 img,
+    .cannabis-page .hemp-platform-row-1 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* TWO-COLUMN PLATFORM ROWS */
+  
+    .cannabis-page .cannabis-two-col-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+  
+    .cannabis-page .cannabis-platform-row-2-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 419;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .hemp-platform-row-2-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 476;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .cannabis-platform-row-2-image img,
+    .cannabis-page .hemp-platform-row-2-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* MOBILE MARKETPLACE */
+  
+    .cannabis-page .mobile-marketplace-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 677;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .mobile-marketplace-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* CANNABIS PRINT — 738 / 519 */
+  
+    .cannabis-page .print-row-top {
+      display: grid;
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+      align-items: stretch;
+    }
+  
+    .cannabis-page .print-row-top-left,
+    .cannabis-page .print-row-top-right {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: auto;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .print-row-top {
+      aspect-ratio: 1280 / 513;
+    }
+  
+    .cannabis-page .print-row-top-left,
+    .cannabis-page .print-row-top-right {
+      height: 100%;
+    }
+  
+    .cannabis-page .print-row-top-left img,
+    .cannabis-page .print-row-top-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .cannabis-page .print-row-bottom {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 610;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .print-row-bottom img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* HEMP PRINT — 520 / 736 */
+  
+    .cannabis-page .adapting-print-row-top {
+      display: grid;
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+      aspect-ratio: 1280 / 513;
+      align-items: stretch;
+    }
+  
+    .cannabis-page .adapting-print-left,
+    .cannabis-page .adapting-print-right {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .adapting-print-left img,
+    .cannabis-page .adapting-print-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .cannabis-page .adapting-print-row-bottom {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 610;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+  
+    .cannabis-page .adapting-print-row-bottom img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* SPACING */
+  
+    .cannabis-page .cannabis-systems-intro {
+      margin-top: 40px;
+    }
+  
+    .cannabis-page .cannabis-section {
+      margin-top: 48px;
+    }
+  
+    .cannabis-page .project-navigation {
+      margin-top: 48px;
+    }
+  }
+  /* =========================================================
+   RECOVERED — REVAYAT TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .revayat-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* HERO — three proportional posters */
+
+  .revayat-page .revayat-hero {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 32px;
+  }
+
+  .revayat-page .revayat-hero-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 411 / 581;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* DESIGNING THE CAMPAIGN — 737 / 522 */
+
+  .revayat-page .revayat-campaign-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    align-items: stretch;
+  }
+
+  .revayat-page .revayat-campaign-large,
+  .revayat-page .revayat-campaign-small {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: auto;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-campaign-grid {
+    aspect-ratio: 1280 / 620;
+  }
+
+  .revayat-page .revayat-campaign-large,
+  .revayat-page .revayat-campaign-small {
+    height: 100%;
+  }
+
+  .revayat-page .revayat-campaign-large img,
+  .revayat-page .revayat-campaign-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* BUILDING THE VISUAL LANGUAGE */
+
+  .revayat-page .revayat-visual-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .revayat-page .revayat-visual-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 519 / 500;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-visual-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* BUILDING THE IDENTITY — 520 / 736 */
+
+  .revayat-page .revayat-identity-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    align-items: stretch;
+  }
+
+  .revayat-page .revayat-identity-grid {
+    aspect-ratio: 1280 / 606;
+  }
+
+  .revayat-page .revayat-identity-left,
+  .revayat-page .revayat-identity-right {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-identity-left img,
+  .revayat-page .revayat-identity-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* DESIGNING FOR PARTICIPATION */
+
+  .revayat-page .revayat-participation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .revayat-page .revayat-participation-left,
+  .revayat-page .revayat-participation-right {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 628 / 570;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-participation-left img,
+  .revayat-page .revayat-participation-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* CAMPAIGN IN CONTEXT — 738 / 519 */
+
+  .revayat-page .revayat-context-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    aspect-ratio: 1280 / 357;
+    align-items: stretch;
+  }
+
+  .revayat-page .revayat-context-left,
+  .revayat-page .revayat-context-right {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .revayat-page .revayat-context-left img,
+  .revayat-page .revayat-context-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* SPACING */
+
+  .revayat-page .revayat-research-intro {
+    margin-top: 40px;
+  }
+
+  .revayat-page .revayat-section {
+    margin-top: 48px;
+  }
+}
+/* =========================================================
+   RECOVERED — PLAYFUL WALKING TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    .playful-walking-page {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+  
+    /* HERO — preserve 737 / 519 composition */
+  
+    .playful-walking-page .walking-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 1280 / 394;
+  
+      margin-top: 32px;
+      align-items: stretch;
+    }
+  
+    .playful-walking-page .walking-hero-large,
+    .playful-walking-page .walking-hero-small {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+    .playful-walking-page .walking-hero-large img,
+    .playful-walking-page .walking-hero-small img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* READING EXPERIENCE — scale naturally */
+  
+    .playful-walking-page .walking-reading-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: 16px;
+      overflow: visible;
+    }
+  
+    .playful-walking-page .walking-reading-image img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* COLOR ACROSS THE SERIES */
+  
+    .playful-walking-page .walking-color-legend {
+      width: 100%;
+      gap: 32px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .playful-walking-page .walking-color-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .playful-walking-page .walking-color-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 629 / 428;
+      overflow: hidden;
+    }
+  
+    .playful-walking-page .walking-color-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* IMAGE INTEGRATION & ART DIRECTION */
+  
+    .playful-walking-page .walking-art-direction-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+  
+    .playful-walking-page .walking-art-direction-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 428;
+      overflow: hidden;
+    }
+  
+    .playful-walking-page .walking-art-direction-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* PAGE ARCHITECTURE */
+  
+    .playful-walking-page .walking-architecture-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+  
+    .playful-walking-page .walking-architecture-half {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 628 / 428;
+      overflow: hidden;
+    }
+  
+    .playful-walking-page .walking-architecture-half img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* FULL-WIDTH ARCHITECTURE BOARD — do not crop */
+  
+    .playful-walking-page .walking-architecture-full {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: 16px;
+      overflow: visible;
+    }
+  
+    .playful-walking-page .walking-architecture-full img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* CLOSING IMAGE — preserve entire artwork */
+  
+    .playful-walking-page .walking-closing {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: 60px;
+      overflow: visible;
+    }
+  
+    .playful-walking-page .walking-closing img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* SPACING */
+  
+    .playful-walking-page .walking-editorial-language {
+      margin-top: 40px;
+    }
+  
+    .playful-walking-page .walking-section {
+      margin-top: 48px;
+    }
+  }
+  /* =========================================================
+   RECOVERED — PLAYFUL WALKING TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .playful-walking-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* HERO — preserve 737 / 519 composition */
+
+  .playful-walking-page .walking-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1280 / 394;
+
+    margin-top: 32px;
+    align-items: stretch;
+  }
+
+  .playful-walking-page .walking-hero-large,
+  .playful-walking-page .walking-hero-small {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .playful-walking-page .walking-hero-large img,
+  .playful-walking-page .walking-hero-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* READING EXPERIENCE — scale naturally */
+
+  .playful-walking-page .walking-reading-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+    overflow: visible;
+  }
+
+  .playful-walking-page .walking-reading-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+
+  /* COLOR ACROSS THE SERIES */
+
+  .playful-walking-page .walking-color-legend {
+    width: 100%;
+    gap: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .playful-walking-page .walking-color-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .playful-walking-page .walking-color-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 629 / 428;
+    overflow: hidden;
+  }
+
+  .playful-walking-page .walking-color-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* IMAGE INTEGRATION & ART DIRECTION */
+
+  .playful-walking-page .walking-art-direction-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .playful-walking-page .walking-art-direction-image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 628 / 428;
+    overflow: hidden;
+  }
+
+  .playful-walking-page .walking-art-direction-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* PAGE ARCHITECTURE */
+
+  .playful-walking-page .walking-architecture-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .playful-walking-page .walking-architecture-half {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 628 / 428;
+    overflow: hidden;
+  }
+
+  .playful-walking-page .walking-architecture-half img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* FULL-WIDTH ARCHITECTURE BOARD — do not crop */
+
+  .playful-walking-page .walking-architecture-full {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+    overflow: visible;
+  }
+
+  .playful-walking-page .walking-architecture-full img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+
+  /* CLOSING IMAGE — preserve entire artwork */
+
+  .playful-walking-page .walking-closing {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    overflow: visible;
+  }
+
+  .playful-walking-page .walking-closing img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+
+  /* SPACING */
+
+  .playful-walking-page .walking-editorial-language {
+    margin-top: 40px;
+  }
+
+  .playful-walking-page .walking-section {
+    margin-top: 48px;
+  }
+}
+/* =========================================================
+   RECOVERED — WAR CHILDREN TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    /* HERO — three equal squares */
+  
+    .war-children-hero {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 32px;
+    }
+  
+    .war-children-hero-image {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+    }
+  
+    .war-children-hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* SEQUENTIAL REVEAL */
+  
+    .war-sequence-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+  
+    .war-sequence-card {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  
+    .war-sequence-item {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 518 / 732;
+      overflow: hidden;
+    }
+  
+    .war-sequence-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .war-sequence-label {
+      margin-top: 6px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  
+  
+    /* FINAL WALL IMAGE */
+  
+    .war-wall-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1280 / 693;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+  
+    .war-wall-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* PORTRAIT SYSTEM — preserve full poster */
+  
+    .war-portrait-system-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: 16px;
+      overflow: visible;
+    }
+  
+    .war-portrait-system-image img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  
+  
+    /* EDITORIAL EXTENSION — 737 / 519 */
+  
+    .war-editorial-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: 16px;
+  
+      width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+  
+      aspect-ratio: 1280 / 469;
+      align-items: stretch;
+    }
+  
+    .war-editorial-image-large,
+    .war-editorial-image-small {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+    .war-editorial-image-large img,
+    .war-editorial-image-small img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+  
+    /* SPACING */
+  
+    .war-intervention-intro {
+      margin-top: 40px;
+    }
+  
+    .war-section {
+      margin-top: 48px;
+    }
+  
+    .war-final-poster-section {
+      margin-top: 40px;
+    }
+  }
+  
