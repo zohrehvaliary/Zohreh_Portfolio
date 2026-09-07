@@ -6558,4 +6558,338 @@ body {
       margin-top: 40px;
     }
   }
+  /* =========================================================
+   RECOVERED — MAPPING MY EDMONTON TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .mapping-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* HERO — preserve 845 / 411 composition */
+
+  .mapping-page .mapping-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1280 / 627;
+
+    margin-top: 32px;
+    align-items: stretch;
+  }
+
+  .mapping-page .mapping-hero-large {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .mapping-page .mapping-hero-stack {
+    display: grid;
+    grid-template-rows: 301fr 302fr;
+    gap: 16px;
+
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-hero-small-top,
+  .mapping-page .mapping-hero-small-bottom {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .mapping-page .mapping-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* LEGEND — TWO COLUMNS
+     fifth item remains naturally left-aligned */
+
+  .mapping-page .mapping-legend {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    width: 100%;
+    max-width: 100%;
+
+    column-gap: 32px;
+    row-gap: 32px;
+    margin-top: 32px;
+  }
+
+  .mapping-page .mapping-legend-item,
+  .mapping-page .mapping-legend-item:not(:first-child) {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 0;
+  }
+
+
+  /* TWO SEASONS */
+
+  .mapping-page .mapping-seasons-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .mapping-page .mapping-season-figure {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-season-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 628 / 494;
+    overflow: hidden;
+  }
+
+  .mapping-page .mapping-season-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* SHOES — WINTER / SUMMER COLUMNS */
+
+  .mapping-page .mapping-shoes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .mapping-page .mapping-shoes-column {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-shoe-row {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-shoes-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 628 / 233;
+    overflow: hidden;
+  }
+
+  .mapping-page .mapping-shoes-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mapping-page .mapping-shoe-row + .mapping-shoe-row {
+    margin-top: 10px;
+  }
+
+
+  /* LANDMARKS — TOP ROW */
+
+  .mapping-page .mapping-landmarks-top {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .mapping-page .mapping-landmark-top-figure {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-landmark-top-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 628 / 396;
+    overflow: hidden;
+  }
+
+
+  /* LANDMARKS — BOTTOM ROW */
+
+  .mapping-page .mapping-landmarks-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .mapping-page .mapping-landmark-bottom-figure {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .mapping-page .mapping-landmark-bottom-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 411 / 272;
+    overflow: hidden;
+  }
+
+  .mapping-page .mapping-landmark-top-image img,
+  .mapping-page .mapping-landmark-bottom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* SPACING */
+
+  .mapping-page .mapping-personal-geography {
+    margin-top: 40px;
+  }
+
+  .mapping-page .mapping-section {
+    margin-top: 48px;
+  }
+}
+/* =========================================================
+   RECOVERED — PROJECT HEADER SPACING — TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    /* title + intro block → metadata */
+    .project-header-grid {
+      grid-template-columns: 1fr;
+      row-gap: 24px;
+    }
   
+    /* title → intro */
+    .project-title {
+      margin-bottom: 20px;
+    }
+  
+    /* metadata rhythm */
+    .meta-item {
+      margin-bottom: 18px;
+    }
+  
+    .meta-item:last-child {
+      margin-bottom: 0;
+    }
+  
+    /* keep Scope → hero consistent */
+    .healthgauge-hero-grid,
+    .currents-hero,
+    .cannabis-hero,
+    .cannabis-hero-images,
+    .revayat-hero,
+    .war-children-hero,
+    .mn-hero,
+    .uv-hero,
+    .walking-hero,
+    .mapping-hero {
+      margin-top: 32px;
+    }
+  }
+  /* =========================================================
+   RECOVERED — PROJECT NAVIGATION / FOOTER SPACING — TABLET
+   481px–900px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  /* final project content → project navigation */
+  .project-navigation {
+    margin-top: 60px;
+  }
+
+  /* navigation → footer */
+  .project-page {
+    padding-bottom: 40px;
+  }
+
+  .project-navigation-side {
+    gap: 4px;
+  }
+
+  .project-navigation-label {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .project-navigation-link {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .footer {
+    min-height: 72px;
+    padding: 0 24px;
+  }
+}
+/* =========================================================
+   GLOBAL PROJECT END SPACING — TABLET
+   481px–900px
+   ========================================================= */
+
+   @media (min-width: 481px) and (max-width: 900px) {
+
+    /* last project image/content → Previous / Next */
+    .project-page .project-navigation {
+      margin-top: 40px;
+    }
+  
+    /* Previous / Next → footer */
+    .project-page {
+      padding-bottom: 32px;
+    }
+  }

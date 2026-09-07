@@ -24,7 +24,6 @@ import mapLandmark03 from './assets/landmark-03.png';
 import mapLandmark04 from './assets/landmark-04.png';
 import mapLandmark05 from './assets/landmark-05.png';
 
-import mapClosing from './assets/closing-image.jpg';
 import walkingHero01 from './assets/Walking-hero-01.png';
 import walkingHero02 from './assets/Walking-hero-02.png';
 
@@ -3734,15 +3733,6 @@ if (typeof view === 'object' && view.id === 9) {
       </figcaption>
     </figure>
   </div>
-</section>
-{/* CLOSING IMAGE */}
-<section className="mapping-closing">
-  <img
-    src={mapClosing}
-    alt=""
-    loading="lazy"
-    decoding="async"
-  />
 </section>
 
         <ProjectNavigation projectId={9} />
