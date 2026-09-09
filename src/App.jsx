@@ -101,6 +101,7 @@ import mnLogo05 from './assets/MN-logo-05.png';
 // Mission North — Visual Identity
 import mnColor from './assets/MN-color.png';
 import mnType from './assets/MN-type.png';
+import mnTypeMobile from './assets/MN-mobile-Type.png';
 
 // Mission North — Brand Applications
 import mnBrand01 from './assets/MN-brand-01.jpg';
@@ -235,6 +236,12 @@ import hgCare02 from './assets/Hg-care-02.png';
 import hgCare03 from './assets/Hg-care-03.png';
 import hgCare04 from './assets/Hg-care-04.png';
 
+// HealthGauge — Mobile Brand Standards
+import hgLogoMobile01 from './assets/Hg-logo-mobile-01.png';
+import hgLogoMobile02 from './assets/Hg-logo-mobile-02.png';
+import hgLogoMobile03 from './assets/Hg-logo-mobile-03.png';
+import hgLogoMobile04 from './assets/Hg-logo-mobile-04.png';
+import hgColorCircleMobile from './assets/HG-color-circle.png';
 // HealthGauge — Brand
 import hgBrand01 from './assets/Hg-brand-01.png';
 import hgBrand02 from './assets/HG-brand-02.png';
@@ -1099,44 +1106,293 @@ return (
     </p>
   </div>
   <div className="brand-standards-images">
-  <div className="brand-standards-image brand-standards-image-large">
-  <img
-  src={hgBrand01}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
-  </div>
 
-  <div className="brand-standards-image brand-standards-image-small">
+<div className="brand-standards-image brand-standards-image-large hg-brand-desktop">
   <img
-  src={hgBrand02}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
+    src={hgBrand01}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
 </div>
+
+<div className="brand-standards-image brand-standards-image-small hg-brand-desktop">
+  <img
+    src={hgBrand02}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+</div>
+
+<div className="hg-brand-mobile">
+  <img
+    src={hgLogoMobile01}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+
+  <img
+    src={hgLogoMobile02}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+
+  <img
+    src={hgLogoMobile03}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+
+  <img
+    src={hgLogoMobile04}
+    alt=""
+    loading="lazy"
+    decoding="async"
+  />
+</div>
+
 </div>
 <div className="colour-palette">
   <h3 className="brand-standards-title">Colour Palette</h3>
 
+  <div className="hg-color-circle-mobile">
+    <img
+      src={hgColorCircleMobile}
+      alt="HealthGauge colour palette overview"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+
   <div className="colour-palette-images">
     <div className="colour-palette-image">
-    <img
-  src={hgColor01}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
+      <img
+        src={hgColor01}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
     </div>
 
     <div className="colour-palette-image">
-    <img
-  src={hgColor02}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
+      <img
+        src={hgColor02}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </div>
+
+  <div className="hg-primary-palette-mobile">
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#00837d' }}
+      />
+      <div className="hg-color-name">HG Green</div>
+      <div className="hg-color-hex">HEX: 00837d</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#00afaa' }}
+      />
+      <div className="hg-color-name">HG Medium Green</div>
+      <div className="hg-color-hex">HEX: 00afaa</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#62cbc9' }}
+      />
+      <div className="hg-color-name">HG Light Green</div>
+      <div className="hg-color-hex">HEX: 62cbc9</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#99d9d9' }}
+      />
+      <div className="hg-color-name">HG Lighter Green</div>
+      <div className="hg-color-hex">HEX: 99d9d9</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#cb0a00' }}
+      />
+      <div className="hg-color-name">HG Dark Red</div>
+      <div className="hg-color-hex">HEX: cb0a00</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#ff6259' }}
+      />
+      <div className="hg-color-name">HG Red</div>
+      <div className="hg-color-hex">HEX: ff6259</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#ff9e99' }}
+      />
+      <div className="hg-color-name">HG Medium Red</div>
+      <div className="hg-color-hex">HEX: ff9e99</div>
+    </div>
+
+    <div className="hg-color-item">
+      <div
+        className="hg-color-swatch"
+        style={{ backgroundColor: '#ffd1ce' }}
+      />
+      <div className="hg-color-name">HG Light Red</div>
+      <div className="hg-color-hex">HEX: ffd1ce</div>
+    </div>
+  </div>
+
+  <div className="hg-secondary-palette-mobile">
+    <div className="hg-palette-group">
+      <h4 className="hg-palette-group-title">Accent</h4>
+      <div className="hg-secondary-palette-grid">
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#9f2dbc' }}
+          />
+          <div className="hg-secondary-color-name">HG Accent</div>
+          <div className="hg-secondary-color-hex">HEX: 9f2dbc</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#bd78ce' }}
+          />
+          <div className="hg-secondary-color-name">HG Accent Med</div>
+          <div className="hg-secondary-color-hex">HEX: bd78ce</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#d3a5df' }}
+          />
+          <div className="hg-secondary-color-name">HG Accent light</div>
+          <div className="hg-secondary-color-hex">HEX: d3a5df</div>
+        </div>
+      </div>
+    </div>
+
+    <div className="hg-palette-group">
+      <h4 className="hg-palette-group-title">Shadow</h4>
+      <div className="hg-secondary-palette-grid">
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#d1d9e6' }}
+          />
+          <div className="hg-secondary-color-name">HG Shadow</div>
+          <div className="hg-secondary-color-hex">HEX: d1d9e6</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch hg-light-swatch"
+            style={{ backgroundColor: '#e7ebf2' }}
+          />
+          <div className="hg-secondary-color-name">HG Shadow light</div>
+          <div className="hg-secondary-color-hex">HEX: e7ebf2</div>
+        </div>
+      </div>
+    </div>
+
+    <div className="hg-palette-group">
+      <h4 className="hg-palette-group-title">Neutral</h4>
+      <div className="hg-secondary-palette-grid">
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#111b1a' }}
+          />
+          <div className="hg-secondary-color-name">HG Black</div>
+          <div className="hg-secondary-color-hex">HEX: 111b1a</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#384341' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 1</div>
+          <div className="hg-secondary-color-hex">HEX: 384341</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#5d6a68' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 2</div>
+          <div className="hg-secondary-color-hex">HEX: 5d6a68</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#7f8d8c' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 3</div>
+          <div className="hg-secondary-color-hex">HEX: 7f8d8c</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#a7b2af' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 4</div>
+          <div className="hg-secondary-color-hex">HEX: a7b2af</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#bdc7c5' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 5</div>
+          <div className="hg-secondary-color-hex">HEX: bdc7c5</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch"
+            style={{ backgroundColor: '#d9e0e0' }}
+          />
+          <div className="hg-secondary-color-name">HG Grey 6</div>
+          <div className="hg-secondary-color-hex">HEX: d9e0e0</div>
+        </div>
+
+        <div className="hg-secondary-color-item">
+          <div
+            className="hg-secondary-swatch hg-light-swatch"
+            style={{ backgroundColor: '#eaf1f1' }}
+          />
+          <div className="hg-secondary-color-name">Off White</div>
+          <div className="hg-secondary-color-hex">HEX: eaf1f1</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -1145,29 +1401,25 @@ return (
   <h3 className="brand-standards-title">Typography</h3>
 
   <div className="typography-images">
-    <div className="typography-image">
-    <img src={hgType01} alt="" loading="lazy" decoding="async" />
-    </div>
+  <div className="typography-image typography-image-crop">
+  <img src={hgType01} alt="" loading="lazy" decoding="async" />
+</div>
 
-    <div className="typography-image">
+  <div className="typography-image">
     <img src={hgType02} alt="" loading="lazy" decoding="async" />
-    </div>
-
-    <div className="typography-image">
-    <img src={hgType03} alt="" loading="lazy" decoding="async" />
-    </div>
-
-    <div className="typography-image">
-    <img src={hgType04} alt="" loading="lazy" decoding="async" />
-    </div>
   </div>
+
+  <div className="typography-image">
+    <img src={hgType03} alt="" loading="lazy" decoding="async" />
+  </div>
+
+  <div className="typography-image">
+  <img src={hgType04} alt="" loading="lazy" decoding="async" />
 </div>
 
-<div className="brand-specifications-subsection">
-  <h3 className="brand-standards-title">Brand Specifications</h3>
+</div> {/* closes typography-images */}
+</div> {/* closes typography-subsection */}
 
-  <div className="brand-specifications-image"></div>
-</div>
 
 </section>
 <ProjectNavigation projectId={1} />
@@ -2440,28 +2692,131 @@ if (typeof view === 'object' && view.id === 4) {
           </p>
 
           <div className="mn-colour-subsection">
-            <h3 className="mn-subsection-title">Colour Palette</h3>
-            <div className="mn-colour-image">
-            <img
-  src={mnColor}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
-</div>
-          </div>
+  <h3 className="mn-subsection-title">Colour Palette</h3>
 
-          <div className="mn-typography-subsection">
-            <h3 className="mn-subsection-title">Typography</h3>
-            <div className="mn-typography-image">
-            <img
-  src={mnType}
-  alt=""
-  loading="lazy"
-  decoding="async"
-/>
+  {/* MOBILE */}
+  <div className="mn-colour-mobile">
+
+    <div className="mn-palette-group">
+      <div className="mn-palette-group-title">Primary Colors</div>
+
+      <div className="mn-colour-grid">
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#171E26' }}
+          />
+          <div className="mn-colour-name">MN Black</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch mn-colour-swatch-light"
+            style={{ backgroundColor: '#FFFFFF' }}
+          />
+          <div className="mn-colour-name">MN White</div>
+        </div>
+      </div>
+    </div>
+
+    <div className="mn-palette-group mn-palette-group-secondary">
+      <div className="mn-palette-group-title">Secondary Colors</div>
+
+      <div className="mn-colour-grid">
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#0068E5' }}
+          />
+          <div className="mn-colour-name">MN Blue</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#ED5951' }}
+          />
+          <div className="mn-colour-name">MN Red</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#3DC6C9' }}
+          />
+          <div className="mn-colour-name">MN Teal</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#00397D' }}
+          />
+          <div className="mn-colour-name">MN Dark Blue</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#55AD57' }}
+          />
+          <div className="mn-colour-name">MN Green</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#226C6E' }}
+          />
+          <div className="mn-colour-name">MN Dark Green</div>
+        </div>
+
+        <div className="mn-colour-item">
+          <div
+            className="mn-colour-swatch"
+            style={{ backgroundColor: '#A2C8F5' }}
+          />
+          <div className="mn-colour-name">MN Light Blue</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {/* DESKTOP / TABLET */}
+  <div className="mn-colour-image">
+    <img
+      src={mnColor}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
 </div>
-          </div>
+
+<div className="mn-typography-subsection">
+  <h3 className="mn-subsection-title">Typography</h3>
+
+  {/* MOBILE */}
+  <div className="mn-typography-mobile">
+    <img
+      src={mnTypeMobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+
+  {/* DESKTOP / TABLET */}
+  <div className="mn-typography-image">
+    <img
+      src={mnType}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+</div>
         </section>
 
         {/* BRAND APPLICATIONS */}
@@ -2927,7 +3282,12 @@ if (typeof view === 'object' && view.id === 3) {
     />
   </div>
 </div>
-<div className="uv-type-mobile">
+
+<div className="uv-type-use-subsection">
+  <h3 className="ecosystem-heading">
+    Typography 
+  </h3>
+  <div className="uv-type-mobile">
   <img
     src={uvTypeMobile}
     alt=""
@@ -2937,7 +3297,7 @@ if (typeof view === 'object' && view.id === 3) {
 </div>
 <div className="uv-type-subsection">
   <h3 className="ecosystem-heading">
-    Typography
+    Typography in Use
   </h3>
 
   <div className="uv-type-image">
@@ -2949,11 +3309,6 @@ if (typeof view === 'object' && view.id === 3) {
     />
   </div>
 </div>
-
-<div className="uv-type-use-subsection">
-  <h3 className="ecosystem-heading">
-    Typography in Use
-  </h3>
   <div className="uv-type-use-mobile">
   <img
     src={uvTypeInUse01Mobile}
