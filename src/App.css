@@ -3680,7 +3680,7 @@ body {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.65);
 }
-}
+
 
 
     /* UV — MOBILE SUBSECTION SPACING */
@@ -4599,7 +4599,7 @@ body {
 .uv-type-use-mobile img + img {
   margin-top: 12px;
 }
- /* END PHONE — max-width: 480px */
+ }/* END PHONE — max-width: 480px */
 /* =========================================================
    RECOVERED PROJECT LAYOUT — TABLET ONLY
    ========================================================= */
@@ -7201,3 +7201,22 @@ body {
       margin-bottom: 8px;
     }
   }
+  /* =========================================================
+   UV — DESKTOP VISUAL IDENTITY SAFEGUARD
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  .unusual-ventures-page .uv-colour-image,
+  .unusual-ventures-page .uv-type-image,
+  .unusual-ventures-page .uv-type-use-image {
+    display: block;
+  }
+
+  .unusual-ventures-page .uv-colour-mobile,
+  .unusual-ventures-page .uv-type-mobile,
+  .unusual-ventures-page .uv-type-use-mobile {
+    display: none;
+  }
+
+}

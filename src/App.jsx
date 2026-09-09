@@ -3290,23 +3290,22 @@ if (typeof view === 'object' && view.id === 3) {
   </div>
 </div>
 
-<div className="uv-type-use-subsection">
-  <h3 className="ecosystem-heading">
-    Typography 
-  </h3>
-  <div className="uv-type-mobile">
-  <img
-    src={uvTypeMobile}
-    alt=""
-    loading="lazy"
-    decoding="async"
-  />
-</div>
 <div className="uv-type-subsection">
   <h3 className="ecosystem-heading">
-    Typography in Use
+    Typography
   </h3>
 
+  {/* MOBILE */}
+  <div className="uv-type-mobile">
+    <img
+      src={uvTypeMobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+
+  {/* DESKTOP / TABLET */}
   <div className="uv-type-image">
     <img
       src={uvType}
@@ -3316,22 +3315,30 @@ if (typeof view === 'object' && view.id === 3) {
     />
   </div>
 </div>
+
+<div className="uv-type-use-subsection">
+  <h3 className="ecosystem-heading">
+    Typography in Use
+  </h3>
+
+  {/* MOBILE */}
   <div className="uv-type-use-mobile">
-  <img
-    src={uvTypeInUse01Mobile}
-    alt=""
-    loading="lazy"
-    decoding="async"
-  />
+    <img
+      src={uvTypeInUse01Mobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
 
-  <img
-    src={uvTypeInUse02Mobile}
-    alt=""
-    loading="lazy"
-    decoding="async"
-  />
-</div>
+    <img
+      src={uvTypeInUse02Mobile}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
 
+  {/* DESKTOP / TABLET */}
   <div className="uv-type-use-image">
     <img
       src={uvTypeUse}
