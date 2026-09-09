@@ -602,6 +602,13 @@ export default function App() {
                 My practice brings together structural clarity, typography, image-making, and research-informed thinking to create thoughtful, coherent visual systems across digital and print contexts.
                 </p>
               </div>
+              <div className="about-image-mobile">
+  <img
+    className="about-image"
+    src={aboutImage}
+    alt="Portrait of Zohreh Valiary"
+  />
+</div>
   
               <div className="experience-grid">
   <div>
@@ -649,7 +656,7 @@ export default function App() {
 </div>
             </div>
   
-            <div className="col-5">
+            <div className="col-5 about-image-desktop">
               <img
                 className="about-image"
                 src={aboutImage}

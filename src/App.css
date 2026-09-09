@@ -2131,6 +2131,9 @@ body {
   object-fit: cover;
   display: block;
 }
+.about-image-mobile {
+  display: none;
+}
 /* UNUSUAL VENTURES — SECTION SPACING */
 
 .uv-visual-language-intro {
@@ -3635,6 +3638,50 @@ body {
   width: 100%;
   height: auto;
 }
+.about-image-desktop {
+  display: none;
+}
+
+.about-image-mobile {
+  display: block;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.about-image-mobile .about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* ABOUT — EXPERIENCE / PROJECTS */
+
+.about-page .experience-grid .label {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.about-page .about-entry-title {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.about-page .about-entry-meta {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+}
+}
+
 
     /* UV — MOBILE SUBSECTION SPACING */
 
@@ -4552,7 +4599,7 @@ body {
 .uv-type-use-mobile img + img {
   margin-top: 12px;
 }
-} /* END PHONE — max-width: 480px */
+ /* END PHONE — max-width: 480px */
 /* =========================================================
    RECOVERED PROJECT LAYOUT — TABLET ONLY
    ========================================================= */
